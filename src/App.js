@@ -1,10 +1,16 @@
 import "./App.css";
 import React from "react";
-import Navbar from "./components/Navbar";
+import { Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Accueil from "./pages/Accueil";
+
 function App() {
   return (
     <>
-      <Navbar />{" "}
+      <Navbar />
+      <Switch>
+        <Route path="/" component={Accueil} />
+      </Switch>
     </>
   );
 }
