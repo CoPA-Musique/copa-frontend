@@ -9,21 +9,36 @@ export default function Header() {
       <Link to="/">
         <img src={logo} alt="Logo Copa" width={100} />
       </Link>
+
       <Nav className="mx-auto">
         <Nav.Link>
           <Link to="/">Accueil</Link>
         </Nav.Link>
+
         <NavDropdown title="À propos" id="basic-nav-dropdown">
           <NavDropdown.Item>
             <Link to="/about">À propos</Link>
           </NavDropdown.Item>
           <NavDropdown.Item>
-            <Link to="/conditions">Conditions générales d'utilisation</Link>
+            <Link to="/conditions-utilisation">
+              Conditions générales d'utilisation
+            </Link>
+          </NavDropdown.Item>
+          <NavDropdown.Item>
+            <Link to="/politiques-confidentialité">
+              Politiques de confidentialité
+            </Link>
           </NavDropdown.Item>
         </NavDropdown>
+
         <Nav.Link>
           <Link to="/tarifs">Tarifs</Link>
         </Nav.Link>
+
+        <Nav.Link>
+          <Link to="/blog">Blog</Link>
+        </Nav.Link>
+
         <Nav.Link>
           <Link to="/faq">FAQ</Link>
         </Nav.Link>
