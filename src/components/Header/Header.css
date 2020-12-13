@@ -1,0 +1,21 @@
+header {
+  background-color: #343a40;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+  margin: auto 10px;
+  list-style-type: none;
+}
+
+a {
+  color: beige;
+}
+
+a:hover {
+    color: rgb(226, 226, 169);
+}
