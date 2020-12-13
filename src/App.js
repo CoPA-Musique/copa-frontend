@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Header from "./components/Header";
+import Header from "./components/Header/Header.jsx";
 import Accueil from "./pages/Accueil";
 import About from "./pages/About/About";
 import ConditionsUtilisation from "./pages/About/ConditionsUtilisation";
@@ -24,7 +24,7 @@ function App() {
         />
         <Route
           exact
-          path="/politiques-confidentialité"
+          path="/politiques-confidentialite"
           component={PolitiquesConfidentialite}
         />
         <Route exact path="/tarifs" component={Tarifs} />
