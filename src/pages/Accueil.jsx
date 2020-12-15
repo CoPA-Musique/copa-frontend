@@ -1,6 +1,9 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 const Accueil = () => {
+  useEffect(() => {
+    document.title = "CoPA Musique"
+ }, []);
   return (
     <div className="container">
       <h1>Accueil</h1>
