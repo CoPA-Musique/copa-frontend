@@ -1,6 +1,8 @@
 # Frontend de la plateforme web CoPA Musique
 
-Créer avec React Native
+Version 0.1
+
+Créer avec React JS
 
 ## Pages
 
@@ -11,3 +13,7 @@ Créer avec React Native
 - Blog (/blog)
 - Tarifs (/tarifs)
 - FAQ (/faq)
+
+## Composantes
+
+- Header
