@@ -6,7 +6,7 @@ import DropdownMenu from "../DropdownMenu/DropdownMenu";
 
 export default function Header() {
   return (
-    <header>
+    <header className="main-header">
       <Link to="/">
         <img src={logo} alt="Logo Copa" width={100} />
       </Link>

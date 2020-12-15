@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: #343a40;
   padding: 10px;
   display: flex;
@@ -6,16 +6,16 @@ header {
   justify-content: space-between;
 }
 
-li {
+.main-header li {
   display: inline;
   margin: auto 10px;
   list-style-type: none;
 }
 
-a {
+.main-header a {
   color: beige;
 }
 
-a:hover {
+.main-header a:hover {
     color: rgb(226, 226, 169);
 }
