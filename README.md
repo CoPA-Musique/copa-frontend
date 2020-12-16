@@ -6,6 +6,7 @@ Créer avec React JS
 
 ## Pages
 
+
 - Accueil (/)
 - À propos (/about)
 - Politiques de confidentialité (/politiques-confidentialité)
@@ -17,3 +18,5 @@ Créer avec React JS
 ## Composantes
 
 - Header
+- DropdownMenu
+
