@@ -46,3 +46,33 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+
+.dropdown-content.responsive {
+  display: flex;
+  flex-direction: column;
+  transition: ease-in 0.4s all;
+}
+
+@media (max-width: 600px) {
+  .dropdown-content {
+    left: 60%;
+    top: 0;
+    border: 1px solid #e4e4e4;
+    background-color: #e44d3a;
+    padding-left: 20px;
+    padding-right: 20px;
+    visibility: visible;
+  }
+
+  .dropdown-content a {
+    float: left;
+    color: beige;
+    text-align: left;
+    padding: 0 0 0 0;
+    margin-bottom: 20px;
+  }
+
+  .dropdown-content a:hover {
+    color: rgb(226, 226, 169);
+  }
+}
