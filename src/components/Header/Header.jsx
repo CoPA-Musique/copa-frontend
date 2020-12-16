@@ -1,12 +1,14 @@
 import React from "react";
-import "./Header.css";
+import style from "./Header.module.css";
 import { Link } from "react-router-dom";
 import logo from "../../img/CoPA-Logo-Rouge.png";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 
 export default function Header() {
+  console.log(style);
+
   return (
-    <header className="main-header">
+    <header className={style["main-header"]}>
       <Link to="/">
         <img src={logo} alt="Logo Copa" width={100} />
       </Link>
@@ -16,15 +18,13 @@ export default function Header() {
           <li>
             <Link to="/">Accueil</Link>
           </li>
-          <li>
-            {/* <Link to="/about">À propos</Link> */}
-            <DropdownMenu title="À propos">
-              <Link to="/about">À propos</Link>
-              <Link to="/conditions-utilisation">Conditions d'utilisation</Link>
-              <Link to="/politiques-confidentialite">Politiques de confidentialité</Link>
-            </DropdownMenu>
-          </li>
-
+          <DropdownMenu title="À propos">
+            <Link to="/about">À propos</Link>
+            <Link to="/conditions-utilisation">Conditions d'utilisation</Link>
+            <Link to="/politiques-confidentialite">
+              Politiques de confidentialité
+            </Link>
+          </DropdownMenu>
           <li>
             <Link to="/tarifs">Tarifs</Link>
           </li>

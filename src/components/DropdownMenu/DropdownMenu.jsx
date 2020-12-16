@@ -1,27 +1,14 @@
-import React, { useState } from "react";
-import "./DropdownMenu.css";
+import React from "react";
+import style from "./DropdownMenu.module.css";
 
 const DropdownMenu = ({ title, children }) => {
-  const [displayMenu, setDisplayMenu] = useState(false);
-  console.log(displayMenu);
-
-  const toggleDropdownMenu = () => {
-    setDisplayMenu(!displayMenu);
-  };
-
-  const menu = displayMenu ? (
-    <div>
-      <ul className="dropown">{children}</ul>{" "}
-    </div>
-  ) : null;
-
   return (
-    <>
-      <a href="#" onClick={toggleDropdownMenu}>
-        {title} <span className="small">&#9660;</span>
-      </a>
-      {menu}
-    </>
+    <li className={style.dropdown}>
+      <button>
+        {title} <span className={style.small}>&#9660;</span>
+      </button>
+      <ul className={style["dropdown-content"]}>{children}</ul>
+    </li>
   );
 };
 
