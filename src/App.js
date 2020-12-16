@@ -1,6 +1,8 @@
 import "./App.css";
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+
+// Composantes
 import Header from "./components/Header/Header.jsx";
 import Accueil from "./pages/Accueil";
 import About from "./pages/About/About";
@@ -9,6 +11,7 @@ import PolitiquesConfidentialite from "./pages/About/PolitiquesConfidentialite";
 import Tarifs from "./pages/Tarifs";
 import Blog from "./pages/Blog";
 import FAQ from "./pages/FAQ";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -31,6 +34,7 @@ function App() {
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/faq" component={FAQ} />
       </Switch>
+      <Footer />
     </>
   );
 }
