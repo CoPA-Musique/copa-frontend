@@ -6,9 +6,9 @@ const About = () => {
  }, []);
 
   return (
-    <div className="container">
+    <main>
       <h1>À propos</h1>
-    </div>
+    </main>
   );
 };
 

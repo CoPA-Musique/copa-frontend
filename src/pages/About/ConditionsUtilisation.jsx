@@ -1,14 +1,14 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 const ConditionsUtilisation = () => {
   useEffect(() => {
-    document.title = "Conditions générales d'utilisation - CoPA Musique"
- }, []);
+    document.title = "Conditions générales d'utilisation - CoPA Musique";
+  }, []);
 
   return (
-    <div className="container">
+    <main>
       <h1>Conditions générales d'utilisation</h1>
-    </div>
+    </main>
   );
 };
 

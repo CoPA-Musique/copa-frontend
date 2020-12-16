@@ -1,14 +1,14 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 const Blog = () => {
   useEffect(() => {
-    document.title = "Blog - CoPA Musique"
- }, []);
+    document.title = "Blog - CoPA Musique";
+  }, []);
 
   return (
-    <div className="container">
+    <main>
       <h1>Blog</h1>
-    </div>
+    </main>
   );
 };
 
