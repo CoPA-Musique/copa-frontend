@@ -7,6 +7,20 @@ import DropdownMenu from "../DropdownMenu/DropdownMenu";
 export default function Header() {
   console.log(style);
 
+  const toggleHamburgerMenu = () => {
+    const nav = document.querySelector(`.${style["main-header"]} nav`);
+
+    const responsiveClasse = style.responsive;
+
+    if (!nav.classList.contains(responsiveClasse)) {
+      nav.classList.add(responsiveClasse);
+    } else {
+      nav.classList.remove(responsiveClasse);
+    }
+
+    console.log(nav);
+  };
+
   return (
     <header className={style["main-header"]}>
       <Link to="/">
@@ -37,7 +51,11 @@ export default function Header() {
         </ul>
       </nav>
 
-      <Link to="/">Connexion</Link>
+      <div>
+        <button className={style.hamburger} onClick={toggleHamburgerMenu}>
+          <i className="fa fa-bars fa-2x"></i>
+        </button>
+      </div>
     </header>
   );
 }
