@@ -17,6 +17,7 @@
 
 .main-header a {
   color: beige;
+  text-decoration: none;
 }
 
 .main-header a:hover {
