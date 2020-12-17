@@ -1,6 +1,5 @@
 .copyright {
-    position: absolute;
-    bottom: 0;
+    padding: 8px;
     width: 100%;
     text-align: center;
     background-color: rgb(32, 32, 32);
