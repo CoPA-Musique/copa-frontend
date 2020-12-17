@@ -2,15 +2,14 @@
 
 Version 0.1
 
-Créer avec React JS
+Créé avec React JS
 
 ## Pages
 
-
 - Accueil (/)
 - À propos (/about)
-- Politiques de confidentialité (/politiques-confidentialité)
-- Conditions Générales d'utilisation (/conditions-utilisation)
+  - Politiques de confidentialité (/politiques-confidentialité)
+  - Conditions Générales d'utilisation (/conditions-utilisation)
 - Blog (/blog)
 - Tarifs (/tarifs)
 - FAQ (/faq)
@@ -18,5 +17,8 @@ Créer avec React JS
 ## Composantes
 
 - Header
-- DropdownMenu
-
+  - DropdownMenu
+- Footer
+  - Contact
+  - Social
+  - Copyright
