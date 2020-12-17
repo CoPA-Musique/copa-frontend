@@ -1,0 +1,37 @@
+.footer {
+  z-index: 1;
+  position: relative;
+  background-color: #343a40;
+}
+
+.footer__content {
+  padding: 10px;
+  display: flex;
+  height: 100%;
+  color: beige;
+  justify-content: space-between;
+}
+
+.footer__content a {
+  text-decoration: none;
+  color: beige;
+}
+
+.footer__content a:hover {
+  color: rgb(226, 226, 169);
+}
+
+.footer__content a:visited {
+  color: beige;
+}
+
+.footer__content__logo {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .footer__content {
+    flex-direction: column;
+  }
+}

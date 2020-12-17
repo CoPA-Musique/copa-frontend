@@ -1,0 +1,16 @@
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social ul {
+  display: flex;
+}
+
+.social ul li {
+  padding: 10px;
+}
+
+.social ul a:hover {
+  color: rgb(199, 31, 19);
+}

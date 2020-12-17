@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Header.module.css";
 import { Link } from "react-router-dom";
 import logo from "../../img/CoPA-Logo-Rouge.png";
+import "../../assets/icofont/icofont.min.css";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 
 export default function Header() {
@@ -53,7 +54,7 @@ export default function Header() {
 
       <div>
         <button className={style.hamburger} onClick={toggleHamburgerMenu}>
-          <i className="fa fa-bars fa-2x"></i>
+          <i className={`icofont-navigation-menu icofont-2x `}></i>
         </button>
       </div>
     </header>
