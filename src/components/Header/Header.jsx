@@ -33,21 +33,14 @@ export default function Header() {
           <li>
             <Link to="/">Accueil</Link>
           </li>
-          <DropdownMenu title="À propos">
-            <Link to="/about">À propos</Link>
-            <Link to="/conditions-utilisation">Conditions d'utilisation</Link>
-            <Link to="/politiques-confidentialite">
-              Politiques de confidentialité
-            </Link>
-          </DropdownMenu>
           <li>
             <Link to="/tarifs">Tarifs</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/comment-ca-marche">Comment ça marche</Link>
           </li>
           <li>
-            <Link to="/faq">FAQ</Link>
+            <Link to="/nouvelles">Nouvelles</Link>
           </li>
         </ul>
       </nav>
