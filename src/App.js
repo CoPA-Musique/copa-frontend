@@ -11,8 +11,9 @@ import PolitiquesConfidentialite from "./pages/About/PolitiquesConfidentialite";
 import Tarifs from "./pages/Tarifs";
 import Nouvelles from "./pages/Nouvelles";
 import FaQ from "./pages/FaQ";
-import Footer from "./components/Footer/Footer";
 import Error404 from "./pages/404";
+import NousJoindre from "./pages/NousJoindre";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route exact path="/tarifs" component={Tarifs} />
         <Route exact path="/nouvelles" component={Nouvelles} />
         <Route exact path="/comment-ca-marche" component={FaQ} />
+        <Route exact path="/contact" component={NousJoindre} />
         <Route component={Error404} />
       </Switch>
       <Footer />
