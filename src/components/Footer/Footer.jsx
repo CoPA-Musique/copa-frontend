@@ -5,7 +5,7 @@ import logo from "../../img/CoPA-Logo-Rouge.png";
 import Copyright from "./Copyright/Copyright";
 import { Link } from "react-router-dom";
 import Social from "./Social/Social";
-import Contact from "./Contact/Contact";
+import SiteMap from "./SiteMap/SiteMap"
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <Contact />
+        <SiteMap />
 
         <Social />
       </div>
