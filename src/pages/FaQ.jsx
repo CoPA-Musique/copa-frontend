@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 
 const FaQ = () => {
   useEffect(() => {
-    document.title = "FAQ - CoPA Musique"
+    document.title = "Comment ça marche - CoPA Musique"
  }, []);
 
   return (
