@@ -1,15 +1,15 @@
 import React, {useEffect} from "react";
 
-const FAQ = () => {
+const FaQ = () => {
   useEffect(() => {
     document.title = "FAQ - CoPA Musique"
  }, []);
 
   return (
     <main>
-      <h1>FAQ</h1>
+      <h1>Comment ça marche</h1>
     </main>
   );
 };
 
-export default FAQ;
+export default FaQ;
