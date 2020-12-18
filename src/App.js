@@ -9,9 +9,10 @@ import About from "./pages/About/About";
 import ConditionsUtilisation from "./pages/About/ConditionsUtilisation";
 import PolitiquesConfidentialite from "./pages/About/PolitiquesConfidentialite";
 import Tarifs from "./pages/Tarifs";
-import Blog from "./pages/Blog";
-import FAQ from "./pages/FAQ";
+import Nouvelles from "./pages/Nouvelles";
+import FaQ from "./pages/FaQ";
 import Footer from "./components/Footer/Footer";
+import Error404 from "./pages/404";
 
 function App() {
   return (
@@ -31,8 +32,9 @@ function App() {
           component={PolitiquesConfidentialite}
         />
         <Route exact path="/tarifs" component={Tarifs} />
-        <Route exact path="/blog" component={Blog} />
-        <Route exact path="/faq" component={FAQ} />
+        <Route exact path="/nouvelles" component={Nouvelles} />
+        <Route exact path="/comment-ca-marche" component={FaQ} />
+        <Route component={Error404} />
       </Switch>
       <Footer />
     </>
