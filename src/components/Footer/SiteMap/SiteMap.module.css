@@ -1,0 +1,30 @@
+.siteMap {
+  display: flex;
+  align-items: center;
+}
+
+.siteMap ul {
+  margin: 0 10px;
+}
+
+.siteMap a:hover {
+  color: rgb(226, 226, 169);
+}
+
+.siteMap li > ul {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 400px) {
+  .siteMap {
+    flex-direction: column;
+    margin: 20px;
+    border: white solid 1px;
+    padding: 5px;
+  }
+
+  .siteMap__liste2 {
+      margin-left: -20px !important;
+  }
+}
