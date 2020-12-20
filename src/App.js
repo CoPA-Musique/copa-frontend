@@ -11,7 +11,7 @@ import PolitiquesConfidentialite from "./pages/About/PolitiquesConfidentialite";
 import Tarifs from "./pages/Tarifs";
 import Nouvelles from "./pages/Nouvelles";
 import FaQ from "./pages/FaQ";
-import Error404 from "./pages/404";
+import Error404 from "./pages/Error404/Error404";
 import NousJoindre from "./pages/NousJoindre";
 import Footer from "./components/Footer/Footer";
 
