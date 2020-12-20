@@ -1,4 +1,5 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
+import Hero from "../components/Hero/Hero";
 
 const Error404 = () => {
   useEffect(() => {
@@ -7,7 +8,7 @@ const Error404 = () => {
 
   return (
     <main>
-      <h1>Erreur 404, page non trouvée.</h1>
+      <Hero title="Erreur 404">Page non trouvée...</Hero>
     </main>
   );
 };

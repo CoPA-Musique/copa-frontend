@@ -1,0 +1,14 @@
+.hero {
+  width: max-content;
+  padding: 50px;
+  text-align: center;
+  margin: 10% auto;
+  border: black solid 1px;
+  background-color: rgba(100, 149, 237, 0.4);
+  transition: all 0.4s ease-in;
+}
+
+.hero:hover {
+  background-color: rgba(100, 149, 237, 0.8);
+}
+
