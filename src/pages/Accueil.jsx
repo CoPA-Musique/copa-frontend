@@ -9,18 +9,14 @@ const Accueil = () => {
   return (
     <main>
       <Hero title="CoPA Musique" btn_text="À propos" btn_link="/about">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti ut
-        possimus modi dolor accusantium corrupti explicabo nemo illo reiciendis
-        assumenda commodi, veritatis ipsa soluta, voluptates, a distinctio hic
-        quibusdam facilis!
-        <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Quod doloribus rerum odio officia animi quam obcaecati libero?
-        Consectetur officia itaque maxime libero, qui veniam rem autem
-        voluptatum mollitia aliquam rerum?
-        <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Quod doloribus rerum odio officia animi quam obcaecati libero?
-        Consectetur officia itaque maxime libero, qui veniam rem autem
-        voluptatum mollitia aliquam rerum?
+        Fondé en octobre 2018, la Communauté Musique Estrie (CoME) est un OBNL
+        œuvrant dans le domaine musical auprès de la communauté artistique de la
+        région de l’Estrie. Guidé par des valeurs d’entraide, de respect,
+        d’écoute et de transparence, l’équipe de cette initiative édifie son
+        entreprise en regard à des besoins sondés dans cette même communauté. Le
+        mandat de CoME est de favoriser l’épanouissement des divers acteurs de
+        la scène musicale régionale et encourager leur autonomisation
+        professionnelle.
       </Hero>
       <HowWork />
       <p>
