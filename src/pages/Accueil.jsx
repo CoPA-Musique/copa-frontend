@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Hero from "../components/Hero/Hero";
+import HowWork from "../components/HowWork/HowWork";
 
 const Accueil = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const Accueil = () => {
         Consectetur officia itaque maxime libero, qui veniam rem autem
         voluptatum mollitia aliquam rerum?
       </Hero>
+      <HowWork />
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quod
         nobis officiis, eaque ullam cumque modi neque, aliquid voluptatibus
