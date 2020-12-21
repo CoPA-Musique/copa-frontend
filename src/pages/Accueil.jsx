@@ -7,7 +7,7 @@ const Accueil = () => {
   }, []);
   return (
     <main>
-      <Hero title="CoPA Musique">
+      <Hero title="CoPA Musique" btn_text="À propos" btn_link="/about">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti ut
         possimus modi dolor accusantium corrupti explicabo nemo illo reiciendis
         assumenda commodi, veritatis ipsa soluta, voluptates, a distinctio hic
