@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: 70%;
   width: 105.5%;
-  height: 835px;
+  height: 800px;
 }
 
 .hero h1 {
@@ -21,7 +21,7 @@
 .hero hr {
   margin-left: 25px;
   margin-top: 20px;
-  width: 50%;
+  width: 45%;
 }
 
 .hero__btn,
@@ -56,20 +56,36 @@
   color: rgb(255, 208, 0);
 }
 
+@media (max-width: 1300px) {
+  .hero h1 {
+    padding-top: 100px;
+  }
+}
+
 @media (max-width: 950px) {
+  .hero {
+    height: 600px;
+  }
+
   .hero h1 {
     padding-top: 150px;
   }
 
   .hero hr {
-    width: 80%;
-    margin: 20px auto;
+    width: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero h1 {
+    padding-top: 190px;
   }
 }
 
 @media (max-width: 450px) {
   .hero {
     background: none;
+    height: 500px;
   }
 
   .hero h1 {
@@ -81,7 +97,18 @@
     padding-right: 20px;
   }
 
+  .hero hr {
+    width: 80%;
+    margin: 20px auto;
+  }
+
   .hero__btn {
     width: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .hero {
+    margin-bottom: 50px;
   }
 }
