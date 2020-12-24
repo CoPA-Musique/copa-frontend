@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Hero from "../components/Hero/Hero";
+import style from "./Error404.module.css";
 
 const Error404 = () => {
   useEffect(() => {
@@ -8,7 +8,10 @@ const Error404 = () => {
 
   return (
     <main>
-      <Hero title="Erreur 404">Page non trouvée...</Hero>
+      <div className={style.hero404}>
+        <h1>Erreur 404</h1>
+        <h2>Page non trouvée</h2>
+      </div>
     </main>
   );
 };

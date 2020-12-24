@@ -1,0 +1,13 @@
+.CategoryCell a {
+   text-decoration: none;
+   color: black;
+}
+
+.CategoryCell a:hover {
+    text-decoration: underline;
+}
+
+.CategoryCell h3 {
+    text-align: center;
+    font-size: 2rem;
+}

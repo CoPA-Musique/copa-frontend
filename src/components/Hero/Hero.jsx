@@ -1,12 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./Hero.module.css";
 
-const Hero = ({ title, children }) => {
+const Hero = ({ title, children, btn_text, btn_link }) => {
   return (
-    <div className={style.hero}>
+    <section className={style.hero}>
       <h1>{title}</h1>
-      <h2>{children}</h2>
-    </div>
+      <p>{children}</p>
+      <hr />
+      <div className={style["hero__btn"]}>
+        <button>
+          <Link to={btn_link}>{btn_text}</Link>
+        </button>
+      </div>
+    </section>
   );
 };
 
