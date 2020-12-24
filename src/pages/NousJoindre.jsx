@@ -5,6 +5,7 @@ import ContactForm from "../components/ContactForm/ContactForm";
 const NousJoindre = () => {
   useEffect(() => {
     document.title = "Nous joindre - CoPA Musique";
+    window.scrollTo(0, 0);
   }, []);
 
   return (

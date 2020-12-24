@@ -6,7 +6,9 @@ import HowWork from "../components/HowWork/HowWork";
 const Accueil = () => {
   useEffect(() => {
     document.title = "CoPA Musique";
+    window.scrollTo(0, 0);
   }, []);
+
   return (
     <main>
       <Hero title="CoPA Musique" btn_text="À propos" btn_link="/about">

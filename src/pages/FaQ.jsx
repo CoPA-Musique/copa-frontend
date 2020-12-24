@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 const FaQ = () => {
   useEffect(() => {
     document.title = "Comment ça marche - CoPA Musique";
+    window.scrollTo(0, 0);
   }, []);
 
   return (
