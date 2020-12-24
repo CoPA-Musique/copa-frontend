@@ -1,19 +1,27 @@
 .CategoriesGrid {
   margin: 50px auto;
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 250px 250px 250px;
-  column-gap: 10px;
-  row-gap: 15px;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
-.CategoriesGrid img {
-    max-width: 250px;
-    display: block;
-    margin: 10px auto;
+@media (max-width: 1300px) {
+  .CategoriesGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
-.CategoriesGrid h3 {
-    text-align: center;
-    font-size: 2rem;
+@media (max-width: 1075px) {
+  .CategoriesGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .CategoriesGrid {
+    grid-template-columns: 1fr;
+  }
 }
