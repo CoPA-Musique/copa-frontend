@@ -1,8 +1,10 @@
 import React from "react";
+import style from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <div>
+    <div className={style.Contact}>
+    <h2>Informations de contact : </h2>
       <ul>
         <li>
           <i class="icofont-long-arrow-right"></i>

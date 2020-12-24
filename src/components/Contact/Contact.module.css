@@ -1,0 +1,25 @@
+.Contact {
+  width: fit-content;
+  padding: 10px;
+  border: black 1px solid;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.Contact h2 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.Contact ul li {
+  padding: 5px 0;
+}
+
+.Contact a {
+  text-decoration: none;
+  color: rgb(54, 54, 172);
+}
+
+.Contact a:hover {
+  color: rgb(199, 31, 19);
+}
