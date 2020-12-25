@@ -7,7 +7,7 @@ const Contact = () => {
     <h2>Informations de contact : </h2>
       <ul>
         <li>
-          <i class="icofont-long-arrow-right"></i>
+          <i className="icofont-long-arrow-right"></i>
           Email :{" "}
           <a
             href="mailto:cm.sherbrooke@gmail.com"
@@ -17,14 +17,14 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <i class="icofont-long-arrow-right"></i>
+          <i className="icofont-long-arrow-right"></i>
           Discord :{" "}
           <a href="https://discord.gg/wM8Nu28 " alt="Salon Discord">
             https://discord.gg/wM8Nu28
           </a>
         </li>
         <li>
-          <i class="icofont-long-arrow-right"></i>
+          <i className="icofont-long-arrow-right"></i>
           Téléphone : 514-993-2336
         </li>
       </ul>
