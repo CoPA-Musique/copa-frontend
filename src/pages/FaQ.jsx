@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import Accordeon from "../components/Accordeon/Accordeon";
+import Panel from "../components/Accordeon/Panel/Panel";
+import data from "../data/FaQ.json";
 
 const FaQ = () => {
   useEffect(() => {
@@ -7,16 +9,24 @@ const FaQ = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const dataFaQ = Object.values(data);
+
   return (
     <main>
       <h1>Comment ça marche</h1>
-      <Accordeon title="Question 1">
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero
-          eos eius, repellendus aut eveniet dolore expedita ut numquam omnis quo
-          placeat, alias, quibusdam nihil rerum incidunt dolor! Incidunt,
-          adipisci!
-        </span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+        nihil nostrum ipsa fugit iste aut labore quae minus reiciendis. Sequi
+        reprehenderit veritatis enim pariatur iste expedita distinctio
+        necessitatibus ex praesentium!
+      </p>
+      <br />
+      <Accordeon>
+        {dataFaQ.map((d, i) => (
+          <Panel key={i} title={d.title}>
+            {d.content}
+          </Panel>
+        ))}
       </Accordeon>
     </main>
   );
