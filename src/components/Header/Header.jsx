@@ -5,8 +5,6 @@ import logo from "../../img/CoPA-Logo-Rouge.png";
 import "../../assets/icofont/icofont.min.css";
 
 export default function Header() {
-  console.log(style);
-
   const toggleHamburgerMenu = () => {
     const nav = document.querySelector(`.${style["main-header"]} nav`);
 
@@ -17,8 +15,6 @@ export default function Header() {
     } else {
       nav.classList.remove(responsiveClasse);
     }
-
-    console.log(nav);
   };
 
   return (
