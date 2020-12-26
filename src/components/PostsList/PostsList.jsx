@@ -7,6 +7,7 @@ import Pagination from "../Pagination/Pagination";
 
 const PostsList = () => {
   const dataPosts = Object.values(data);
+  
   return (
     <>
       <div className={style.PostsList}>
