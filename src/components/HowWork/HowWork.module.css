@@ -20,29 +20,10 @@
   color: white;
 }
 
-.HowWork__btn, .HowWork__btn button {
-  border-radius: 10px;
-}
-
 .HowWork__btn {
-  width: 50%;
-  margin: 20px auto 0;
-}
-
-.HowWork__btn button {
-  border: 2px rgb(133, 1, 1) solid;
-  background-color: rgb(199, 20, 0);
-  padding: 5px;
-}
-
-.HowWork__btn a {
-  font-size: 1.5rem;
-  color: rgb(223, 223, 54);
-  text-decoration: none;
-}
-
-.HowWork__btn button:hover {
-  background-color: rgb(212, 42, 23);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {

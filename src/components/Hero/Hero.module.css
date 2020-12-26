@@ -23,37 +23,8 @@
   margin-top: 20px;
   width: 45%;
 }
-
-.hero__btn,
-.hero__btn button {
-  border-radius: 10px;
-}
-
 .hero__btn {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  margin-top: 50px;
-}
-
-.hero__btn button {
-  border: 2px rgb(133, 1, 1) solid;
-  background-color: rgb(199, 20, 0);
-  padding: 5px;
-}
-
-.hero__btn a {
-  font-size: 1.5rem;
-  color: rgb(223, 223, 54);
-  text-decoration: none;
-}
-
-.hero__btn button:hover {
-  background-color: rgb(230, 1, 1);
-}
-
-.hero__btn a:hover {
-  color: rgb(255, 208, 0);
+  margin-top: 20px;
 }
 
 @media (max-width: 1300px) {
@@ -103,7 +74,8 @@
   }
 
   .hero__btn {
-    width: auto;
+    display: flex;
+    justify-content: center;
   }
 }
 

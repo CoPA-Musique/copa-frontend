@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "../Button/Button";
 import style from "./HowWork.module.css";
 
 const HowWork = () => {
@@ -19,9 +20,7 @@ const HowWork = () => {
         plateforme web de CoPA Musique.{" "}
       </p>
       <div className={style.HowWork__btn}>
-        <button>
-          <Link to="/comment-ca-marche">En apprendre plus</Link>
-        </button>
+        <Button btn_link="/comment-ca-marche" btn_text="En apprendre plus" />
       </div>
     </div>
   );

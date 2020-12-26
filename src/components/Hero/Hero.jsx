@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Button from "../Button/Button";
 import style from "./Hero.module.css";
 
 const Hero = ({ title, children, btn_text, btn_link }) => {
@@ -8,10 +8,8 @@ const Hero = ({ title, children, btn_text, btn_link }) => {
       <h1>{title}</h1>
       <p>{children}</p>
       <hr />
-      <div className={style["hero__btn"]}>
-        <button>
-          <Link to={btn_link}>{btn_text}</Link>
-        </button>
+      <div className={style.hero__btn}>
+        <Button btn_link="/about" btn_text="À propos" />
       </div>
     </section>
   );
