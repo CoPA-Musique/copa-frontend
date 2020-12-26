@@ -1,0 +1,10 @@
+.GrilleTarifs {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 950px) {
+    .GrilleTarifs {
+        flex-direction: column;
+    }
+}
