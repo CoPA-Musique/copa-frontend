@@ -8,13 +8,15 @@ const Panel = ({ title, children }) => {
   const togglePanel = (evt) => {
     setExpanded(!expanded);
 
-    if (expanded && evt.target.children.length !== 0) {
+    console.log(evt.target.nodeName);
+
+    if (expanded && evt.target.nodeName === "DIV") {
       evt.target.classList.remove(`${style.active}`);
     } else {
       evt.target.classList.add(`${style.active}`);
     }
 
-    if (expanded && evt.target.children.length === 0) {
+    if (expanded && (evt.target.nodeName === "H3" || evt.target.nodeName === "svg")) {
       evt.target.parentNode.classList.remove(`${style.active}`);
     } else {
       evt.target.parentNode.classList.add(`${style.active}`);
