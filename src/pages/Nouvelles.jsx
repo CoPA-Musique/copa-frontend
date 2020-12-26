@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import PostsList from "../components/PostsList/PostsList";
 
 const Nouvelles = () => {
   useEffect(() => {
@@ -9,6 +10,8 @@ const Nouvelles = () => {
   return (
     <main>
       <h1>Nouvelles</h1>
+      <p>Tenez vous informez des dernières nouvelles de CoPA Musique !</p>
+      <PostsList />
     </main>
   );
 };
