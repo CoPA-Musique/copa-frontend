@@ -18,13 +18,17 @@
   justify-content: space-between;
 }
 
+.ContactForm label[for="message"] {
+  margin-right: 10px;
+}
+
 .ContactForm textarea {
   width: 20rem;
   height: 10rem;
 }
 
 .ContactForm button {
-    margin-top: 20px;
+  margin-top: 20px;
   border: 2px rgb(133, 1, 1) solid;
   border-radius: 10px;
   background-color: rgb(199, 20, 0);
@@ -38,17 +42,17 @@
   color: rgb(255, 208, 0);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 528px) {
   .ContactForm textarea {
-    width: 15rem;
+    width: 15rem !important;
   }
 }
 
 @media (max-width: 380px) {
   .ContactForm textarea {
-    width: 10rem;
+    width: 10rem !important;
   }
   .ContactForm input {
-    width: 10rem;
+    width: 10rem !important;
   }
 }
