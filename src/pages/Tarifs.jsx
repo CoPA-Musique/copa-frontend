@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import EncadreTarif from "../components/GrilleTarifs/EncadreTarif/EncadreTarif";
 import GrilleTarifs from "../components/GrilleTarifs/GrilleTarifs";
+import TableauComparatifs from "../components/TableauComparatifs/TableauComparatifs";
 
 const Tarifs = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const Tarifs = () => {
         reiciendis rerum ratione ipsam cupiditate, earum quis necessitatibus
         facere? Dolore, eveniet dolores.
       </p>
+      
       <GrilleTarifs>
         <EncadreTarif title="Membres gratuits" prix="gratuits">
           <li>lorem ipsum</li>
@@ -39,6 +41,8 @@ const Tarifs = () => {
           <li>lorem ipsum</li>
         </EncadreTarif>
       </GrilleTarifs>
+
+      <TableauComparatifs />
     </main>
   );
 };
