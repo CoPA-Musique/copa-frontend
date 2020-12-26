@@ -10,7 +10,6 @@
 
 .Pagination a {
   padding: 10px;
-
   text-decoration: none;
   color: black;
 }
@@ -21,7 +20,6 @@
 }
 
 .Pagination li:hover {
-  margin-bottom: 20px;
   font-weight: bold;
   text-decoration: underline;
 }
