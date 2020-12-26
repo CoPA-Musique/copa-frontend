@@ -23,8 +23,14 @@
   margin-top: 20px;
   width: 45%;
 }
+
 .hero__btn {
   margin-top: 20px;
+}
+
+.logo {
+  margin: 50px 13%;
+  width: 30%;
 }
 
 @media (max-width: 1300px) {
@@ -35,7 +41,7 @@
 
 @media (max-width: 950px) {
   .hero {
-    height: 600px;
+    height: 750px;
   }
 
   .hero h1 {
@@ -51,12 +57,17 @@
   .hero h1 {
     padding-top: 190px;
   }
+
+  .logo {
+    margin: 50px auto;
+    width: 40%;
+  }
 }
 
 @media (max-width: 450px) {
   .hero {
     background: none;
-    height: 500px;
+    height: 580px;
   }
 
   .hero h1 {
