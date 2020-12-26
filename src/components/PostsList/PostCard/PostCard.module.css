@@ -1,0 +1,27 @@
+.PostCard {
+    border: black solid 1px;
+    padding: 10px;
+}
+
+.PostCard h3 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.PostCard a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.PostCard a:hover {
+    font-weight: bold;
+}
+
+.PostCard img {
+    height: 300px;
+}
+
+.PostCard__date {
+    text-decoration: underline;
+    margin-bottom: 5px;
+}

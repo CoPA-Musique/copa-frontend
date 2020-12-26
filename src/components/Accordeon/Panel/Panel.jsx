@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "./Panel.module.css";
-import { ReactComponent as Arrow } from "./arrow-row-expand-down-ico-white.svg";
+import { ReactComponent as Arrow } from "../../../assets/svg/arrow-row-expand-down-ico-white.svg";
 
 const Panel = ({ title, children }) => {
   const [expanded, setExpanded] = useState(false);
