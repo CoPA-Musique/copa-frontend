@@ -16,27 +16,27 @@ const TableauComparatifs = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Lorem Ipsum</td>
+              <td>Lorem ipsum dolor sit amet consectetur</td>
               <td>X</td>
               <td>X</td>
             </tr>
             <tr>
-              <td>Lorem Ipsum</td>
+              <td>Lorem ipsum dolor sit amet consectetur</td>
               <td>X</td>
               <td>X</td>
             </tr>
             <tr>
-              <td>Lorem Ipsum</td>
+              <td>Lorem ipsum dolor sit amet consectetur</td>
               <td>X</td>
               <td>X</td>
             </tr>
             <tr>
-              <td>Lorem Ipsum</td>
+              <td>Lorem ipsum dolor sit amet consectetur</td>
               <td>X</td>
               <td>X</td>
             </tr>
             <tr>
-              <td>Lorem Ipsum</td>
+              <td>Lorem ipsum dolor sit amet consectetur</td>
               <td>X</td>
               <td>X</td>
             </tr>
