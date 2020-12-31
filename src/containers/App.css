@@ -1,3 +1,10 @@
+:root {
+  /* Variables de couleures */
+  --color-primary: rgb(175, 0, 0);
+  --color-secondary: rgb(223, 223, 54);
+  --color-dark-secondary: rgb(235, 192, 2);
+}
+
 @font-face {
   font-family: ubuntu;
   src: url("../assets/fonts/Ubuntu/Ubuntu-Regular.ttf");
