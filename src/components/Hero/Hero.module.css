@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: 70%;
   width: 105.5%;
-  height: 800px;
+  height: 850px;
 }
 
 .Hero h1 {
@@ -34,6 +34,9 @@
 }
 
 @media (min-width: 1500px) {
+  .Hero {
+    height: 960px;
+  }
   .Hero hr {
     width: 40%;
   }
