@@ -9,7 +9,7 @@
 
 .Hero h1 {
   padding-top: 50px;
-  color: rgb(175, 0, 0);
+  color: var(--color-primary);
 }
 
 .Hero p {
