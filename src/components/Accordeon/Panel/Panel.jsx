@@ -16,7 +16,10 @@ const Panel = ({ title, children }) => {
       evt.target.classList.add(`${style.active}`);
     }
 
-    if (expanded && (evt.target.nodeName === "H3" || evt.target.nodeName === "svg")) {
+    if (
+      expanded &&
+      (evt.target.nodeName === "H3" || evt.target.nodeName === "svg")
+    ) {
       evt.target.parentNode.classList.remove(`${style.active}`);
     } else {
       evt.target.parentNode.classList.add(`${style.active}`);
