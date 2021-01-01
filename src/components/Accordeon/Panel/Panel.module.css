@@ -7,7 +7,7 @@
   justify-content: space-between;
   font-size: 1.5rem;
   cursor: pointer;
-  background-color: rgb(51, 51, 51);
+  background-color: var(--color-dark-surface);
   border-radius: 10px;
   color: white;
   padding: 15px;
