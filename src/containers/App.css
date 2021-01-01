@@ -1,8 +1,14 @@
 :root {
   /* Variables de couleures */
   --color-primary: rgb(175, 0, 0);
+
   --color-secondary: rgb(223, 223, 54);
   --color-dark-secondary: rgb(235, 192, 2);
+
+  --color-tertiary: rgb(226, 226, 169);
+
+  --color-dark-surface: rgb(52, 58, 64);
+  --color-darker-surface: rgb(32, 32, 32);
 }
 
 @font-face {
