@@ -3,5 +3,5 @@
   width: 100%;
   text-align: center;
   background-color: var(--color-darker-surface);
-  color: beige;
+  color: var(--color-tertiary);
 }

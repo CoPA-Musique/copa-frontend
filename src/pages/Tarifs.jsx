@@ -20,7 +20,7 @@ const Tarifs = () => {
       </p>
       
       <GrilleTarifs>
-        <EncadreTarif title="Membres gratuits" prix="gratuits">
+        <EncadreTarif title="Membres réguliers" prix="gratuits">
           <li>lorem ipsum</li>
           <li>lorem ipsum</li>
           <li>lorem ipsum</li>
@@ -30,7 +30,7 @@ const Tarifs = () => {
           <li>lorem ipsum</li>
           <li>lorem ipsum</li>
         </EncadreTarif>
-        <EncadreTarif title="Membres Pro" prix="10$/mois">
+        <EncadreTarif title="Membres Pro" prix="12$/mois">
           <li>lorem ipsum</li>
           <li>lorem ipsum</li>
           <li>lorem ipsum</li>

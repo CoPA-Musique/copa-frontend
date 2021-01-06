@@ -10,7 +10,7 @@ const TableauComparatifs = () => {
           <thead>
             <tr>
               <th></th>
-              <th>Membres gratuits</th>
+              <th>Membres réguliers</th>
               <th>Membres Pros</th>
             </tr>
           </thead>
