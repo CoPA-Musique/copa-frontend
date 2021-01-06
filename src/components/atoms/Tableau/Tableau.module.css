@@ -1,0 +1,27 @@
+.Tableau {
+  border-collapse: separate;
+  border-radius: 10px;
+}
+
+.Tableau th,
+.Tableau td {
+  text-align: center;
+  padding: 10px;
+  border: var(--color-dark-primary) 1px solid;
+}
+
+.Tableau tr:first-child th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.Tableau tr:first-child th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.Tableau tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.Tableau tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}

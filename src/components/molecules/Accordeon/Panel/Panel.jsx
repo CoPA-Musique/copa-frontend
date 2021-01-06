@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "./Panel.module.css";
-import { ReactComponent as Arrow } from "../../../assets/svg/arrow-row-expand-down-ico-white.svg";
+import { ReactComponent as Arrow } from "../../../../assets/svg/arrow-row-expand-down-ico-white.svg";
 
 const Panel = ({ title, children }) => {
   const [expanded, setExpanded] = useState(false);
@@ -26,10 +26,11 @@ const Panel = ({ title, children }) => {
     }
   };
 
-  let panelContent = "";
-  if (expanded) {
-    panelContent = <p className={style.Panel__content}>{children}</p>;
-  }
+  let panelContent = expanded ? (
+    <p className={style.Panel__content}>{children}</p>
+  ) : (
+    ""
+  );
 
   return (
     <div className={style.Panel}>

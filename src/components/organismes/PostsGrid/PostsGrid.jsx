@@ -1,16 +1,16 @@
 import React from "react";
-import PostCard from "./PostCard/PostCard";
-import style from "./PostsList.module.css";
-import img_exemple from "../../assets/img/free-music-vector-icon.jpeg";
-import data from "../../data/nouvelles.json";
-import Pagination from "../Pagination/Pagination";
+import PostCard from "../../molecules/Cards/PostCard/PostCard";
+import style from "./PostsGrid.module.css";
+import img_exemple from "../../../assets/img/free-music-vector-icon.jpeg";
+import data from "../../../data/nouvelles.json";
+import Pagination from "../../molecules/Pagination/Pagination";
 
-const PostsList = () => {
+const PostsGrid = () => {
   const dataPosts = Object.values(data);
   
   return (
     <>
-      <div className={style.PostsList}>
+      <div className={style.PostsGrid}>
         {dataPosts.map((p, i) => (
           <PostCard
             title={p.title}
@@ -27,4 +27,4 @@ const PostsList = () => {
   );
 };
 
-export default PostsList;
+export default PostsGrid;

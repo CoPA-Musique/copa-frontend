@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "../Button/Button";
+import Button from "../../atoms/Button/Button";
 import style from "./Hero.module.css";
-import logo_jaune from "../../assets/img/COPA-logo-jaune.png";
+import logo_jaune from "../../../assets/img/COPA-logo-jaune.png";
 
 const Hero = ({ title, children, btn_text, btn_link }) => {
   return (

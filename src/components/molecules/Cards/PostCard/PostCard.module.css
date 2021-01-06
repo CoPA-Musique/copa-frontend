@@ -1,6 +1,7 @@
 .PostCard {
   border: black solid 1px;
   padding: 10px;
+  box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.4);
 }
 
 .PostCard h3 {

@@ -1,12 +1,13 @@
 import React from "react";
-import style from "./TableauComparatifs.module.css";
+import Tableau from "../../atoms/Tableau/Tableau";
+import style from "./TableauComparatif.module.css";
 
-const TableauComparatifs = () => {
+const TableauComparatif = () => {
   return (
-    <div className={style.TableauComparatifs}>
-      <h2>Tableau comparatifs</h2>
+    <section className={style.TableauComparatif}>
+      <h2>Tableau comparatif</h2>
       <div>
-        <table>
+        <Tableau>
           <thead>
             <tr>
               <th></th>
@@ -41,10 +42,10 @@ const TableauComparatifs = () => {
               <td>X</td>
             </tr>
           </tbody>
-        </table>
+        </Tableau>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default TableauComparatifs;
+export default TableauComparatif;

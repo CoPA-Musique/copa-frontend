@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
-import EncadreTarif from "../components/GrilleTarifs/EncadreTarif/EncadreTarif";
-import GrilleTarifs from "../components/GrilleTarifs/GrilleTarifs";
-import TableauComparatifs from "../components/TableauComparatifs/TableauComparatifs";
+import GrilleTarifs from "../components/organismes/GrilleTarifs/GrilleTarifs";
+import TableauComparatif from "../components/organismes/TableauComparatif/TableauComparatif";
 
 const Tarifs = () => {
   useEffect(() => {
@@ -18,31 +17,10 @@ const Tarifs = () => {
         reiciendis rerum ratione ipsam cupiditate, earum quis necessitatibus
         facere? Dolore, eveniet dolores.
       </p>
-      
-      <GrilleTarifs>
-        <EncadreTarif title="Membres réguliers" prix="gratuits">
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-        </EncadreTarif>
-        <EncadreTarif title="Membres Pro" prix="12$/mois">
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-        </EncadreTarif>
-      </GrilleTarifs>
 
-      <TableauComparatifs />
+      <GrilleTarifs />
+
+      <TableauComparatif />
     </main>
   );
 };

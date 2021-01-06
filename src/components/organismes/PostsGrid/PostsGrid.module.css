@@ -1,4 +1,4 @@
-.PostsList {
+.PostsGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -7,13 +7,13 @@
 }
 
 @media (max-width: 850px) {
-  .PostsList {
+  .PostsGrid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 550px) {
-  .PostsList {
+  .PostsGrid {
     grid-template-columns: 1fr;
   }
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./Header.module.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/img/CoPA-Logo-Rouge.png";
-import "../../assets/icofont/icofont.min.css";
+import logo from "../../../assets/img/CoPA-Logo-Rouge.png";
+import "../../../assets/icofont/icofont.min.css";
 
 export default function Header() {
   const toggleHamburgerMenu = () => {

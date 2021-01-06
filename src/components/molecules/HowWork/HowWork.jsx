@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
+import Button from "../../atoms/Button/Button";
 import style from "./HowWork.module.css";
 
 const HowWork = () => {

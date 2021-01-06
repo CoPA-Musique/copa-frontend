@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Footer.module.css";
-import logo from "../../assets/img/CoPA-Logo-Rouge.png";
+import logo from "../../../assets/img/CoPA-Logo-Rouge.png";
 
 import Copyright from "./Copyright/Copyright";
 import { Link } from "react-router-dom";
