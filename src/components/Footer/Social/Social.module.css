@@ -12,5 +12,5 @@
 }
 
 .social ul a:hover {
-  color: rgb(199, 31, 19);
+  color: var(--color-primary);
 }

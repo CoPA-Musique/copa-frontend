@@ -1,7 +1,7 @@
 .copyright {
-    padding: 8px;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(32, 32, 32);
-    color: beige;
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-darker-surface);
+  color: var(--color-tertiary);
 }

@@ -1,28 +1,28 @@
 .footer {
   z-index: 1;
   position: relative;
-  background-color: #343a40;
+  background-color:var(--color-dark-surface);
 }
 
 .footer__content {
   padding: 10px;
   display: flex;
   height: 100%;
-  color: beige;
+  color: var(--color-tertiary);
   justify-content: space-between;
 }
 
 .footer__content a {
   text-decoration: none;
-  color: beige;
+  color: var(--color-tertiary);
 }
 
 .footer__content a:hover {
-  color: rgb(226, 226, 169);
+  color: var(--color-dark-tertiary);
 }
 
 .footer__content a:visited {
-  color: beige;
+  color: var(--color-tertiary);
 }
 
 .footer__content__logo {
