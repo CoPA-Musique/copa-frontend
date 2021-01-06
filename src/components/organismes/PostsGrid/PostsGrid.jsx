@@ -9,7 +9,7 @@ const PostsGrid = () => {
   const dataPosts = Object.values(data);
   
   return (
-    <>
+    <section>
       <div className={style.PostsGrid}>
         {dataPosts.map((p, i) => (
           <PostCard
@@ -23,7 +23,7 @@ const PostsGrid = () => {
         ))}
       </div>
       <Pagination />
-    </>
+    </section>
   );
 };
 

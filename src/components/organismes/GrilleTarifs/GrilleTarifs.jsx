@@ -7,7 +7,7 @@ const GrilleTarifs = ({ children }) => {
   const dataTarifs = Object.values(data);
 
   return (
-    <div className={style.GrilleTarifs}>
+    <section className={style.GrilleTarifs}>
       {dataTarifs.map((t, i) => (
         <TarifCard title={t.titre} prix={t.tarif} key={i}>
           {t.arguments.map((a, i) => (
@@ -15,7 +15,7 @@ const GrilleTarifs = ({ children }) => {
           ))}
         </TarifCard>
       ))}
-    </div>
+    </section>
   );
 };
 

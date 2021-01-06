@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import CategoriesGrid from "../components/CategoriesGrid/CategoriesGrid";
 import Hero from "../components/organismes/Hero/Hero";
-import HowWork from "../components/molecules/HowWork/HowWork";
+import HowWork from "../components/organismes/HowWork/HowWork";
 
 const Accueil = () => {
   useEffect(() => {

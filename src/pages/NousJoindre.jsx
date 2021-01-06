@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Contact from "../components/Contact/Contact";
-import ContactForm from "../components/ContactForm/ContactForm";
+import Contact from "../components/organismes/ContactInfo/ContactInfo";
+import ContactForm from "../components/organismes/ContactForm/ContactForm";
 
 const NousJoindre = () => {
   useEffect(() => {

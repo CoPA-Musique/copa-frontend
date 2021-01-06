@@ -1,7 +1,8 @@
 .footer {
   z-index: 1;
-  position: relative;
-  background-color:var(--color-dark-surface);
+  position: absolute;
+  width: 100%;
+  background-color: var(--color-dark-surface);
 }
 
 .footer__content {
