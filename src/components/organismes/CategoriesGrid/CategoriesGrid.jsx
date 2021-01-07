@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./CategoriesGrid.module.css";
-import musicIllustration from "../../assets/img/free-music-vector-icon.jpeg";
+import musicIllustration from "../../../assets/img/free-music-vector-icon.jpeg";
 import CategoryCell from "./CategoryCell/CategoryCell";
 
 const CategoriesGrid = () => {

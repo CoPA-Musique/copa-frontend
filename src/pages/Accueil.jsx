@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import CategoriesGrid from "../components/CategoriesGrid/CategoriesGrid";
+import CategoriesGrid from "../components/organismes/CategoriesGrid/CategoriesGrid";
 import Hero from "../components/organismes/Hero/Hero";
 import HowWork from "../components/organismes/HowWork/HowWork";
 
