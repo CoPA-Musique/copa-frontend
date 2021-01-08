@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./GrilleTarifs.module.css";
 import data from "../../../data/Tarifs.json";
-import TarifCard from "../../molecules/Cards/TarifCard/TarifCard";
+import TarifCard from "./TarifCard/TarifCard";
 
 const GrilleTarifs = ({ children }) => {
   const dataTarifs = Object.values(data);

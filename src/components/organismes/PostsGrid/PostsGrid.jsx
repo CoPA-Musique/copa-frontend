@@ -1,5 +1,5 @@
 import React from "react";
-import PostCard from "../../molecules/Cards/PostCard/PostCard";
+import PostCard from "./PostCard/PostCard";
 import style from "./PostsGrid.module.css";
 import img_exemple from "../../../assets/img/free-music-vector-icon.jpeg";
 import data from "../../../data/nouvelles.json";

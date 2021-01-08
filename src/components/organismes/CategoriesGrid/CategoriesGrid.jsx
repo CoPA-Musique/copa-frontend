@@ -10,7 +10,7 @@ const CategoriesGrid = () => {
   return (
     <section className={style.CategoriesGrid}>
       {categoriesData.map((c, i) => (
-        <CategoryCell src={musicIllustration} alt={c.img.alt}>
+        <CategoryCell key={i} src={musicIllustration} alt={c.img.alt}>
           {c.nom}
         </CategoryCell>
       ))}
