@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import heroImage from "../assets/img/transparent-bg.png"
 import CategoriesGrid from "../components/organismes/CategoriesGrid/CategoriesGrid";
 import Hero from "../components/organismes/Hero/Hero";
 import HowWork from "../components/organismes/HowWork/HowWork";
@@ -11,7 +12,7 @@ const Accueil = () => {
 
   return (
     <main>
-      <Hero title="CoPA Musique" btn_text="À propos" btn_link="/about">
+      <Hero title="CoPA Musique" btn_text="À propos" btn_link="/about" bgImage={heroImage}>
         Fondé en octobre 2018, la Communauté Musique Estrie (CoME) est un OBNL
         œuvrant dans le domaine musical auprès de la communauté artistique de la
         région de l’Estrie. Guidé par des valeurs d’entraide, de respect,
