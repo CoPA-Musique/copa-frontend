@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import PostsList from "../components/PostsList/PostsList";
+import PostsList from "../components/organismes/PostsGrid/PostsGrid";
 
 const Nouvelles = () => {
   useEffect(() => {

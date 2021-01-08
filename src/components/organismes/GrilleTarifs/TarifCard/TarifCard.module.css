@@ -1,0 +1,48 @@
+.TarifCard {
+  border: var(--color-primary) 4px solid;
+  border-radius: 10px;
+  background-color: var(--color-light-primary);
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  transition: 0.2s all ease-out;
+  box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.TarifCard h2,
+.TarifCard h3 {
+  text-align: center;
+}
+
+.TarifCard h3 {
+  font-style: italic;
+}
+
+.TarifCard ul {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TarifCard li {
+  padding: 5px;
+  list-style: disc;
+}
+
+.TarifCard__btn {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .TarifCard {
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .TarifCard {
+    width: 250px;
+  }
+}

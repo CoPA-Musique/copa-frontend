@@ -1,0 +1,30 @@
+{
+  "0": {
+    "titre": "Membres réguliers",
+    "tarif": "gratuit",
+    "arguments": [
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum"
+    ]
+  },
+  "1": {
+    "titre": "Membres pros",
+    "tarif": "12$/mois",
+    "arguments": [
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum",
+      "lorem ipsum"
+    ]
+  }
+}

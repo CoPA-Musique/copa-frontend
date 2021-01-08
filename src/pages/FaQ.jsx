@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Accordeon from "../components/Accordeon/Accordeon";
-import Panel from "../components/Accordeon/Panel/Panel";
+import Accordeon from "../components/molecules/Accordeon/Accordeon";
+import Panel from "../components/molecules/Accordeon/Panel/Panel";
 import data from "../data/FaQ.json";
 
 const FaQ = () => {
