@@ -1,83 +1,19 @@
 import React from "react";
 import style from "./CategoriesGrid.module.css";
-import musicIllustration from "../../../assets/img/free-music-vector-icon.jpeg";
+import data from "../../../data/Categories.json";
 import CategoryCell from "./CategoryCell/CategoryCell";
+import musicIllustration from "../../../assets/img/free-music-vector-icon.jpeg";
 
 const CategoriesGrid = () => {
+  const categoriesData = Object.values(data);
+
   return (
     <section className={style.CategoriesGrid}>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
-      <CategoryCell
-        src={musicIllustration}
-        alt="illustrations instruments de musiques"
-      >
-        Catégorie
-      </CategoryCell>
+      {categoriesData.map((c, i) => (
+        <CategoryCell src={musicIllustration} alt={c.img.alt}>
+          {c.nom}
+        </CategoryCell>
+      ))}
     </section>
   );
 };
