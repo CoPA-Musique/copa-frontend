@@ -11,7 +11,7 @@
 
 .Button button {
   border: 2px var(--color-primary) solid;
-  background-color: var(--color-light-primary);
+  background-color: var(--color-dark-primary);
   padding: 5px;
 }
 
