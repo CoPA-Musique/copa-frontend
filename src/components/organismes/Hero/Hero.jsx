@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../atoms/Button/Button";
 import style from "./Hero.module.css";
 import logo_jaune from "../../../assets/img/COPA-logo-jaune.png";
 
 const Hero = ({ title, children, btn_text, btn_link, bgImage }) => {
   // Set the background image
-  const HeroEl = document.getElementsByClassName(style.Hero);
-  HeroEl[0].style.backgroundImage = `url(${bgImage})`;
+
+  useEffect(() => {
+    const HeroEl = document.getElementsByClassName(style.Hero);
+    HeroEl[0].style.backgroundImage = `url(${bgImage})`;
+  }, [bgImage]);
 
   return (
     <section className={style.Hero}>
