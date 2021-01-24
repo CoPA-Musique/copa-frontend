@@ -8,17 +8,43 @@ Créé avec React JS
 
 - Accueil (/)
 - À propos (/about)
-  - Politiques de confidentialité (/politiques-confidentialité)
+  - Politiques de confidentialité (/politiques-confidentialite)
   - Conditions Générales d'utilisation (/conditions-utilisation)
-- Blog (/blog)
+- Nouvelles (/nouvelles)
 - Tarifs (/tarifs)
-- FAQ (/faq)
+- Comment ça marche (/comment-ca-marche)
+- Nous Joindre (/contact)
 
 ## Composantes
-
-- Header
-  - DropdownMenu
-- Footer
-  - Contact
-  - Social
-  - Copyright
+```
+├───atoms
+│   ├───Button
+│   ├───HamburgerBtn
+│   ├───Heading
+│   ├───Tableau
+│   └───Text
+├───molecules
+│   ├───Accordeon
+│   │   └───Panel
+│   ├───Pagination
+│   └───SideDrawer
+└───organismes
+    ├───CategoriesGrid
+    │   └───CategoryCell
+    ├───ContactForm
+    ├───ContactInfo
+    ├───Contract
+    ├───Footer
+    │   ├───Copyright
+    │   ├───SiteMap
+    │   └───Social
+    ├───GrilleTarifs
+    │   └───TarifCard
+    ├───Header
+    │   └───Nav
+    ├───Hero
+    ├───HowWork
+    ├───PostsGrid
+    │   └───PostCard
+    └───TableauComparatif
+```
