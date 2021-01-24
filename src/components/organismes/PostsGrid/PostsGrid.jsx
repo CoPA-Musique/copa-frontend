@@ -7,12 +7,13 @@ import Pagination from "../../molecules/Pagination/Pagination";
 
 const PostsGrid = () => {
   const dataPosts = Object.values(data);
-  
+
   return (
     <section>
       <div className={style.PostsGrid}>
         {dataPosts.map((p, i) => (
           <PostCard
+            key={i}
             title={p.title}
             date={p.date}
             image_src={img_exemple}
