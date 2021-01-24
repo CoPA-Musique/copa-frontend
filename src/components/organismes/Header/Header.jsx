@@ -1,50 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Header.module.css";
 import { Link } from "react-router-dom";
 import logo from "../../../assets/img/CoPA-Logo-Rouge.png";
 import "../../../assets/icofont/icofont.min.css";
+import Nav from "./Nav/Nav";
+import HamburgerBtn from "../../atoms/HamburgerBtn/HamburgerBtn";
+import SideDrawer from "../../molecules/SideDrawer/SideDrawer";
 
 export default function Header() {
-  const toggleHamburgerMenu = () => {
-    const nav = document.querySelector(`.${style["main-header"]} nav`);
+  const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
 
-    const responsiveClasse = style.responsive;
-
-    if (!nav.classList.contains(responsiveClasse)) {
-      nav.classList.add(responsiveClasse);
-    } else {
-      nav.classList.remove(responsiveClasse);
-    }
+  const drawerToggleClickHandle = () => {
+    setSideDrawerOpen(!sideDrawerOpen);
+    console.log(sideDrawerOpen);
   };
+
+  const closeDrawerHandle = () => setSideDrawerOpen(false);
 
   return (
     <header className={style["main-header"]}>
       <Link to="/">
-        <img src={logo} alt="Logo Copa" width={100} />
+        <img src={logo} alt="Logo Copa Musique" width={100} />
       </Link>
 
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Accueil</Link>
-          </li>
-          <li>
-            <Link to="/tarifs">Tarifs</Link>
-          </li>
-          <li>
-            <Link to="/comment-ca-marche">Comment ça marche</Link>
-          </li>
-          <li>
-            <Link to="/nouvelles">Nouvelles</Link>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
 
-      <div>
-        <button className={style.hamburger} onClick={toggleHamburgerMenu}>
-          <i className={`icofont-navigation-menu icofont-2x `}></i>
-        </button>
-      </div>
+      <HamburgerBtn click={drawerToggleClickHandle} />
+
+      <SideDrawer isOpen={sideDrawerOpen} close={closeDrawerHandle}>
+        <Nav sideDrawer />
+      </SideDrawer>
     </header>
   );
 }

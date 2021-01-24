@@ -1,0 +1,10 @@
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: block;
+    margin-right: 30px;
+  }
+}

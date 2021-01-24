@@ -1,0 +1,27 @@
+.Nav {
+  display: block;
+}
+
+.sideDrawer ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.sideDrawer ul li a {
+  color: var(--color-tertiary);
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .Nav {
+    display: none;
+  }
+
+  .Nav.sideDrawer {
+    display: block;
+  }
+
+  .Nav.sideDrawer ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
