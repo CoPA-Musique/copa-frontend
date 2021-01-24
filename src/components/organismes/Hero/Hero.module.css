@@ -1,4 +1,5 @@
 .Hero {
+  margin-top: -20px;
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 70%;
@@ -20,7 +21,7 @@
 .Hero hr {
   margin-left: 25px;
   margin-top: 20px;
-  width: 45%;
+  width: 42%;
 }
 
 .Hero__btn {
@@ -37,7 +38,7 @@
     height: 960px;
   }
   .Hero hr {
-    width: 40%;
+    width: 38%;
   }
 }
 

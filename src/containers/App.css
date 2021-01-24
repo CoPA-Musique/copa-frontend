@@ -28,21 +28,8 @@ body {
   font-family: ubuntu, "Times New Roman", Times, serif;
 }
 
-h1,
-h2 {
-  font-family: satisfy, ubuntu, "Times New Roman", Times, serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
 main {
-  padding-top: 70px;
+  padding-top: 90px;
   width: 90%;
   min-height: 85vh;
   margin: auto;

@@ -1,11 +1,12 @@
 import React from "react";
 import Button from "../../atoms/Button/Button";
+import Heading from "../../atoms/Heading/Heading";
 import style from "./HowWork.module.css";
 
 const HowWork = () => {
   return (
     <section className={style.HowWork}>
-      <h2>Comment ça fonctionne</h2>
+      <Heading type={2}>Comment ça fonctionne</Heading>
       <p>
         En devenant visiteur, utilisateur ou abonné, vous pourrez bénéficier de
         différentes fonctionnalités et trouverez plusieurs avantages sur la

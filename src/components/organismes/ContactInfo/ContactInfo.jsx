@@ -1,10 +1,11 @@
 import React from "react";
+import Heading from "../../atoms/Heading/Heading";
 import style from "./ContactInfo.module.css";
 
 const Contact = () => {
   return (
     <div className={style.Contact}>
-    <h2>Informations de contact : </h2>
+      <Heading type={2}>Informations de contact : </Heading>
       <ul>
         <li>
           <i className="icofont-long-arrow-right"></i>

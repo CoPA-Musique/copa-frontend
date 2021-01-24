@@ -1,11 +1,12 @@
 import React from "react";
+import Heading from "../../atoms/Heading/Heading";
 import Tableau from "../../atoms/Tableau/Tableau";
 import style from "./TableauComparatif.module.css";
 
 const TableauComparatif = () => {
   return (
     <section className={style.TableauComparatif}>
-      <h2>Tableau comparatif</h2>
+      <Heading type={2}>Tableau comparatif</Heading>
       <div>
         <Tableau>
           <thead>
@@ -28,17 +29,17 @@ const TableauComparatif = () => {
             </tr>
             <tr>
               <td>Lorem ipsum dolor sit amet consectetur</td>
-              <td>X</td>
-              <td>X</td>
-            </tr>
-            <tr>
-              <td>Lorem ipsum dolor sit amet consectetur</td>
-              <td>X</td>
+              <td></td>
               <td>X</td>
             </tr>
             <tr>
               <td>Lorem ipsum dolor sit amet consectetur</td>
+              <td></td>
               <td>X</td>
+            </tr>
+            <tr>
+              <td>Lorem ipsum dolor sit amet consectetur</td>
+              <td></td>
               <td>X</td>
             </tr>
           </tbody>
