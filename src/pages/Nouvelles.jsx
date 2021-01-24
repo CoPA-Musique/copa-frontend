@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import PostsList from "../components/organismes/PostsGrid/PostsGrid";
+import Heading from "../components/atoms/Heading/Heading";
+import PostsGrid from "../components/organismes/PostsGrid/PostsGrid";
 
 const Nouvelles = () => {
   useEffect(() => {
@@ -9,9 +10,9 @@ const Nouvelles = () => {
 
   return (
     <main>
-      <h1>Nouvelles</h1>
+      <Heading>Nouvelles</Heading>
       <p>Tenez vous informez des dernières nouvelles de CoPA Musique !</p>
-      <PostsList />
+      <PostsGrid />
     </main>
   );
 };

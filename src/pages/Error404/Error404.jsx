@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Heading from "../../components/atoms/Heading/Heading";
 import style from "./Error404.module.css";
 
 const Error404 = () => {
@@ -10,8 +11,8 @@ const Error404 = () => {
   return (
     <main>
       <div className={style.hero404}>
-        <h1>Erreur 404</h1>
-        <h2>Page non trouvée</h2>
+        <Heading>Erreur 404</Heading>
+        <Heading type={2}>Page non trouvée</Heading>
       </div>
     </main>
   );

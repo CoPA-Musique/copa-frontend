@@ -1,0 +1,34 @@
+.Heading1,
+.Heading2 {
+  font-family: satisfy, ubuntu, "Times New Roman", Times, serif;
+}
+
+.Heading1,
+.Heading2,
+.Heading3,
+.Heading4,
+.Heading5,
+.Heading5 {
+  padding-top: 10px;
+}
+
+.Heading1 {
+  font-size: 3rem;
+}
+
+.Heading2 {
+  font-size: 2rem;
+}
+
+.Heading3 {
+  font-size: 1.3rem;
+}
+
+/* .Heading4 {
+}
+
+.Heading5 {
+}
+
+.Heading6 {
+} */

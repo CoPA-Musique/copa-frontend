@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Heading from "../components/atoms/Heading/Heading";
 import Accordeon from "../components/molecules/Accordeon/Accordeon";
 import Panel from "../components/molecules/Accordeon/Panel/Panel";
 import data from "../data/FaQ.json";
@@ -13,7 +14,7 @@ const FaQ = () => {
 
   return (
     <main>
-      <h1>Comment ça marche</h1>
+      <Heading>Comment ça marche</Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
         nihil nostrum ipsa fugit iste aut labore quae minus reiciendis. Sequi

@@ -1,10 +1,11 @@
 import React from "react";
+import Heading from "../../atoms/Heading/Heading";
 import style from "./ContactForm.module.css";
 
 const ContactForm = () => {
   return (
     <section className={style.ContactForm}>
-      <h2>Nous laisser un message : </h2>
+      <Heading type={2}>Nous laisser un message : </Heading>
       <form id="contactForm" action="" method="post">
         <div>
           <label htmlFor="name">Nom et prénom : </label>

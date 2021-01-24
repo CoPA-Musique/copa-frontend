@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Contact from "../components/organismes/ContactInfo/ContactInfo";
 import ContactForm from "../components/organismes/ContactForm/ContactForm";
+import Heading from "../components/atoms/Heading/Heading";
 
 const NousJoindre = () => {
   useEffect(() => {
@@ -10,7 +11,7 @@ const NousJoindre = () => {
 
   return (
     <main>
-      <h1>Nous Joindre</h1>
+      <Heading>Nous Joindre</Heading>
       <Contact />
       <ContactForm />
     </main>
