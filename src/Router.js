@@ -10,6 +10,8 @@ import Nouvelles from "./pages/Nouvelles";
 import FaQ from "./pages/FaQ";
 import Error404 from "./pages/Error404/Error404";
 import NousJoindre from "./pages/NousJoindre";
+import Connexion from "./pages/Account/Connexion";
+import CreateAccount from "./pages/Account/CreateAccount";
 
 const Router = () => {
   return (
@@ -30,6 +32,8 @@ const Router = () => {
       <Route exact path="/nouvelles" component={Nouvelles} />
       <Route exact path="/comment-ca-marche" component={FaQ} />
       <Route exact path="/contact" component={NousJoindre} />
+      <Route exact path="/login" component={Connexion} />
+      <Route exact path="/register" component={CreateAccount} />
       <Route component={Error404} />
     </Switch>
   );
