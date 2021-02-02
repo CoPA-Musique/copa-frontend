@@ -1,20 +1,28 @@
-import React, { useEffect } from "react";
+import React, {useEffect, useState} from "react";
 import Heading from "../components/atoms/Heading/Heading";
-import PostsGrid from "../components/organismes/PostsGrid/PostsGrid";
+import data from "../data/Nouvelles.json";
+import PaginatedPostsGrid from "../components/organismes/PostsGrid/PaginatedPostsGrid";
 
 const Nouvelles = () => {
-  useEffect(() => {
-    document.title = "Nouvelles - CoPA Musique";
-    window.scrollTo(0, 0);
-  }, []);
+    const [posts, setPosts] = useState([]);
 
-  return (
-    <main>
-      <Heading>Nouvelles</Heading>
-      <p>Tenez vous informez des dernières nouvelles de CoPA Musique !</p>
-      <PostsGrid />
-    </main>
-  );
+    useEffect(() => {
+        setPosts(Object.values(data));
+    }, []);
+
+
+    useEffect(() => {
+        document.title = "Nouvelles - CoPA Musique";
+        window.scrollTo(0, 0);
+    }, []);
+
+    return (
+        <main>
+            <Heading>Nouvelles</Heading>
+            <p>Tenez vous informez des dernières nouvelles de CoPA Musique !</p>
+            <PaginatedPostsGrid posts={posts}/>
+        </main>
+    );
 };
 
 export default Nouvelles;
