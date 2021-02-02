@@ -1,6 +1,6 @@
 # Frontend de la plateforme web CoPA Musique
 
-Version 0.1
+Version 0.2
 
 Créé avec React JS
 
