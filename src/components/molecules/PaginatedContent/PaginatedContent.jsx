@@ -1,7 +1,6 @@
-import React, {useState} from "react";
-import style from "../PaginationBar/PaginationBar.module.css";
+import React from "react";
 
-const PaginatedContent = ({data, RenderComponent, paginatedData}) => {
+const PaginatedContent = ({RenderComponent, paginatedData}) => {
     return (
         <>
             {/* show the data */}

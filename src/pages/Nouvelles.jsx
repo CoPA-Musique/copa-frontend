@@ -7,8 +7,8 @@ const Nouvelles = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        const dataPosts = setPosts(Object.values(data));
-    }, [data]);
+        setPosts(Object.values(data));
+    }, []);
 
 
     useEffect(() => {

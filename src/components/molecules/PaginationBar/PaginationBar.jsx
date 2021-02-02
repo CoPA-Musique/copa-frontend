@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import style from "./PaginationBar.module.css";
 
 const PaginationBar = ({paginationGroup, changePage, nextPage, previousPage, currentPage, pages}) => {
