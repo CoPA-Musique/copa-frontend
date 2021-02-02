@@ -4,17 +4,17 @@ import style from "./PostCard.module.css";
 import image from "../../../../assets/img/free-music-vector-icon.jpeg"
 
 const PostCard = (props) => {
-    const {title, date, image_alt, excerpt} = props.data;
+    const {id, title, date, image_alt, excerpt} = props.data;
 
     console.log(props.data)
 
     return (
         <div className={style.PostCard}>
-            <Link to="/article">
+            <Link to={`/article/${id}`}>
                 <img src={image} alt={image_alt}/>
             </Link>
             <h3>
-                <Link to="/article">{title}</Link>
+                <Link to={`/article/${id}`}>{title}</Link>
             </h3>
             <p className={style.PostCard__date}>{date}</p>
             <p>{excerpt}</p>
