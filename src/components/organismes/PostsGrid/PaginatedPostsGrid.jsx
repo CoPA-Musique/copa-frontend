@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import PostCard from "./PostCard/PostCard";
 import style from "./PaginatedPostsGrid.module.css";
 import PaginatedContent from "../../molecules/PaginatedContent/PaginatedContent";
@@ -10,6 +10,10 @@ const PaginatedPostsGrid = ({posts}) => {
 
     const [pages] = useState(Math.round(posts.length / dataLimit));
     const [currentPage, setCurrentPage] = useState(1);
+
+    useEffect(() => {
+        window.scrollTo({behavior: "smooth", top: "0px"});
+    })
 
     function goToNextPage() {
         setCurrentPage((page) => page + 1);
