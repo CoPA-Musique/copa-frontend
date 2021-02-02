@@ -1,4 +1,4 @@
-.PostsGrid {
+.PaginatedPostsGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -7,13 +7,13 @@
 }
 
 @media (max-width: 850px) {
-  .PostsGrid {
+  .PaginatedPostsGrid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 550px) {
-  .PostsGrid {
+  .PaginatedPostsGrid {
     grid-template-columns: 1fr;
   }
 }
