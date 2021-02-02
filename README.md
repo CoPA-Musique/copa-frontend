@@ -26,7 +26,8 @@ Créé avec React JS
 ├───molecules
 │   ├───Accordeon
 │   │   └───Panel
-│   ├───Pagination
+│   ├───PaginatedContent
+│   ├───PaginationBar
 │   └───SideDrawer
 └───organismes
     ├───CategoriesGrid
