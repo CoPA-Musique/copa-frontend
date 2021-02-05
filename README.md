@@ -16,6 +16,8 @@ Créé avec React JS
 - Nous Joindre (/contact)
 
 ## Composantes
+La structure des composantes est basée sur l'architecture [Atomic Design](https://www.usabilis.com/atomic-design/).
+
 ```
 ├───atoms
 │   ├───Button
