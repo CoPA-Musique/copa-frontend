@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import PostCard from "./PostCard/PostCard";
 import style from "./PaginatedPostsGrid.module.css";
 import PaginatedContent from "../../molecules/PaginatedContent/PaginatedContent";
@@ -14,8 +14,7 @@ const PaginatedPostsGrid = ({posts}) => {
     return (
         <section>
             <div className={style.PaginatedPostsGrid}>
-                <PaginatedContent data={posts} RenderComponent={PostCard} dataLimit={dataLimit}
-                                  paginatedData={getPaginatedData}/>
+                <PaginatedContent RenderComponent={PostCard} paginatedData={getPaginatedData}/>
             </div>
             <PaginationBar dataLength={posts.length} dataLimit={dataLimit} pageLimit={pageLimit} nextPage={goToNextPage}
                            previousPage={goToPreviousPage} changePage={changePage}
