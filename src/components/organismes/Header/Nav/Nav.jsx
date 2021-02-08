@@ -24,6 +24,8 @@ const Nav = ({sideDrawer}) => {
                 <li>
                     <Link to="/nouvelles">Nouvelles</Link>
                 </li>
+                <li className={style.account}><Link to="/login">Connexion</Link></li>
+                <li className={style.account}><Link to="/register">Inscription</Link></li>
             </ul>
         </nav>
     );
