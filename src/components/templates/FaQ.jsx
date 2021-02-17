@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../components/atoms/Heading/Heading";
-import Accordeon from "../components/molecules/Accordeon/Accordeon";
-import Panel from "../components/molecules/Accordeon/Panel/Panel";
-import data from "../data/FaQ.json";
+import Heading from "../atoms/Heading/Heading";
+import Accordeon from "../molecules/Accordeon/Accordeon";
+import Panel from "../molecules/Accordeon/Panel/Panel";
+import data from "../../data/FaQ.json";
 
 const FaQ = () => {
   useEffect(() => {

@@ -1,0 +1,20 @@
+{
+  "1": {
+    "email": "soushi888@gmail.com",
+    "password": "123456",
+    "role": "member",
+    "firstName": "Sacha",
+    "lastName": "Pignot",
+    "address": "513 rue Regina",
+    "nip": "H4G 2H2"
+  },
+  "2": {
+    "email": "soushi888@gmail.com",
+    "password": "123456",
+    "role": "member",
+    "firstName": "Sacha",
+    "lastName": "Pignot",
+    "address": "513 rue Regina",
+    "nip": "H4G 2H2"
+  }
+}

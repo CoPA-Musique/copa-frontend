@@ -1,0 +1,17 @@
+.connexionForm div:not(:last-child) {
+    margin-top: 20px;
+}
+
+.submitBtn {
+    width: 100%;
+    margin: 20px auto 0;
+}
+
+.submitBtn div {
+    width: 100%;
+}
+
+
+.submitBtn a {
+    font-size: 1.2rem;
+}

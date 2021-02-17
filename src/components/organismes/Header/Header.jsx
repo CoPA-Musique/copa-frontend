@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import style from "./Header.module.css";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import logo from "../../../assets/img/CoPA-Logo-Rouge.png";
 import "../../../assets/icofont/icofont.min.css";
 import Nav from "./Nav/Nav";
@@ -8,28 +8,31 @@ import HamburgerBtn from "../../atoms/HamburgerBtn/HamburgerBtn";
 import SideDrawer from "../../molecules/SideDrawer/SideDrawer";
 
 export default function Header() {
-  const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
+    const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
 
-  const drawerToggleClickHandle = () => {
-    setSideDrawerOpen(!sideDrawerOpen);
-    console.log(sideDrawerOpen);
-  };
+    const drawerToggleClickHandle = () => {
+        setSideDrawerOpen(!sideDrawerOpen);
+        console.log(sideDrawerOpen);
+    };
 
-  const closeDrawerHandle = () => setSideDrawerOpen(false);
+    const closeDrawerHandle = () => setSideDrawerOpen(false);
 
-  return (
-    <header className={style["main-header"]}>
-      <Link to="/">
-        <img src={logo} alt="Logo Copa Musique" width={100} />
-      </Link>
+    return (
+        <header className={style["main-header"]}>
+            <Link to="/">
+                <img src={logo} alt="Logo Copa Musique" width={100}/>
+            </Link>
 
-      <Nav />
+            <Nav/>
 
-      <HamburgerBtn click={drawerToggleClickHandle} />
+            <div>
+                <HamburgerBtn click={drawerToggleClickHandle}/>
+                <div className={style.account}><Link to="/login">Connexion</Link>/<Link to="/register">Inscription</Link></div>
+            </div>
 
-      <SideDrawer isOpen={sideDrawerOpen} close={closeDrawerHandle}>
-        <Nav sideDrawer />
-      </SideDrawer>
-    </header>
-  );
+            <SideDrawer isOpen={sideDrawerOpen} close={closeDrawerHandle}>
+                <Nav sideDrawer/>
+            </SideDrawer>
+        </header>
+    );
 }

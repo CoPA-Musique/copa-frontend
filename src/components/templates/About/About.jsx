@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/atoms/Heading/Heading";
-import Text from "../../components/atoms/Text/Text";
+import Heading from "../../atoms/Heading/Heading";
+import Text from "../../atoms/Text/Text";
 
 const About = () => {
   useEffect(() => {

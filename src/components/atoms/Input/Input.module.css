@@ -1,0 +1,29 @@
+.Input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Input input {
+    border: 2px rgb(44 107 138) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Input input:focus {
+    border: 2px var(--color-primary) solid;
+    outline: none;
+}
+
+.Input.is-valid input {
+    border-color: #00b300;
+}
+
+@media (max-width: 430px) {
+    .Input {
+        flex-direction: column;
+    }
+
+    .Input input {
+        margin-top: 10px;
+    }
+}
