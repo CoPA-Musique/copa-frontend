@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
-import Heading from "../components/atoms/Heading/Heading";
-import data from "../data/Nouvelles.json";
-import PaginatedPostsGrid from "../components/organismes/PostsGrid/PaginatedPostsGrid";
+import Heading from "../atoms/Heading/Heading";
+import data from "../../data/Nouvelles.json";
+import PaginatedPostsGrid from "../organismes/PostsGrid/PaginatedPostsGrid";
 
 const Nouvelles = () => {
     const [posts, setPosts] = useState([]);

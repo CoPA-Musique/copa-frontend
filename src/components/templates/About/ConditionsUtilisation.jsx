@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/atoms/Heading/Heading";
-import Text from "../../components/atoms/Text/Text";
-import Contract from "../../components/organismes/Contract/Contract";
+import Heading from "../../atoms/Heading/Heading";
+import Text from "../../atoms/Text/Text";
+import Contract from "../../organismes/Contract/Contract";
 
 const ConditionsUtilisation = () => {
   useEffect(() => {

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import heroImage from "../assets/img/transparent-bg.png"
-import CategoriesGrid from "../components/organismes/CategoriesGrid/CategoriesGrid";
-import Hero from "../components/organismes/Hero/Hero";
-import HowWork from "../components/organismes/HowWork/HowWork";
+import heroImage from "../../assets/img/transparent-bg.png"
+import CategoriesGrid from "../organismes/CategoriesGrid/CategoriesGrid";
+import Hero from "../organismes/Hero/Hero";
+import HowWork from "../organismes/HowWork/HowWork";
 
 const Accueil = () => {
   useEffect(() => {

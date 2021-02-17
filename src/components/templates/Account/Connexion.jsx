@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from "../../components/atoms/Heading/Heading";
-import ConnexionForm from "../../components/organismes/ConnexionForm/ConnexionForm";
+import Heading from "../../atoms/Heading/Heading";
+import ConnexionForm from "../../organismes/ConnexionForm/ConnexionForm";
 
 const Connexion  = () => {
     return (

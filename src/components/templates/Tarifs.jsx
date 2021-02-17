@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Heading from "../components/atoms/Heading/Heading";
-import GrilleTarifs from "../components/organismes/GrilleTarifs/GrilleTarifs";
-import TableauComparatif from "../components/organismes/TableauComparatif/TableauComparatif";
+import Heading from "../atoms/Heading/Heading";
+import GrilleTarifs from "../organismes/GrilleTarifs/GrilleTarifs";
+import TableauComparatif from "../organismes/TableauComparatif/TableauComparatif";
 
 const Tarifs = () => {
   useEffect(() => {
