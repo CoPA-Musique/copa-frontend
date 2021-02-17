@@ -1,5 +1,11 @@
 .Form {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 330px;
+}
+
+@media (max-width: 430px) {
+    .Form {
+        width: max-content;
+    }
 }
