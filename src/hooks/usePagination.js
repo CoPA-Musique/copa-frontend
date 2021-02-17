@@ -33,8 +33,6 @@ const usePagination = (data, dataLimit, pageLimit) => {
         return data.slice(startIndex, endIndex);
     };
 
-    console.log(currentPage, pages)
-
     return [getPaginatedData, goToNextPage, goToPreviousPage, changePage, currentPage, getPaginationGroup, pages];
 }
 
