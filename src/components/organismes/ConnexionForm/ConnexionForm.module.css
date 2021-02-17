@@ -1,31 +1,5 @@
-.connexionForm {
-    display: flex;
-    width: max-content;
-    margin: auto;
-    padding: 15px;
-    border: black 2px solid;
-    border-radius: 15px;
-    background: rgba(100, 149, 237, 0.4);
-}
-
-.connexionForm form {
-    display: flex;
-    flex-direction: column;
-}
-
 .connexionForm div:not(:last-child) {
     margin-top: 20px;
-}
-
-.connexionForm input {
-    border: 2px rgb(44 107 138) solid;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.connexionForm input:focus {
-    border: 2px var(--color-primary) solid;
-    outline: none;
 }
 
 .submitBtn {

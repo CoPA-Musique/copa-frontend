@@ -1,0 +1,9 @@
+.BlueCard {
+    display: flex;
+    width: max-content;
+    margin: auto;
+    padding: 15px;
+    border: black 2px solid;
+    border-radius: 15px;
+    background: rgba(100, 149, 237, 0.4);
+}
