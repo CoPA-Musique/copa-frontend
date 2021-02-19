@@ -1,4 +1,6 @@
-# Spécifications des exigences logicielles - CoPA Musique
+# Spécifications des exigences logicielles - CoPA 
+
+Version MVP 1.0
 
 ## Description du logiciel et des utilisateurs finaux
 La plateforme web de CoPA Musique aura 4 sections importantes :
@@ -11,7 +13,7 @@ Il y aura 4 types d'utilisateur :
 - Les simples visiteurs qui pourront visiter la partie statique du site web et les profiles des abonnés sans avoir besoins de se connecter.
 - Les utilisateurs inscrits qui pourront gérer leur profile, proposer des appels d'offres, recevoir des soumissions et sélectionner un prestataire et s'abonner s'il le souhaite.
 - Les abonnés qui pourront créer et gérer un profil professionnel, faire des soumissions aux appels d'offre et créer et gérer des groupes.
-- Les administrateurs qui pourront gérer les utilisateurs, les groupes et les appels d'offre, consulter les statistiques et l'historique des activités de la plateforme et mettre à jours les pages statiques et les contrats
+- Les administrateurs qui pourront gérer les utilisateurs, les groupes et les appels d'offre, consulter les statistiques et l'historique des activités de la plateforme et mettre à jours les pages statiques et les contrats.
 
 ## Visiteur
 
