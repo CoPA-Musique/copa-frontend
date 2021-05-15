@@ -14,32 +14,34 @@ import Connexion from "./components/templates/Account/Connexion";
 import CreateAccount from "./components/templates/Account/CreateAccount";
 
 const Router = () => {
-    return (
-        <Switch>
-            <Route exact path="/" component={Accueil}/>
-            <Route exact path="/about" component={About}/>
-            <Route
-                exact
-                path="/conditions-utilisation"
-                component={ConditionsUtilisation}
-            />
-            <Route
-                exact
-                path="/politiques-confidentialite"
-                component={PolitiquesConfidentialite}
-            />
-            <Route exact path="/tarifs" component={Tarifs}/>
-            <Route exact path="/nouvelles" component={Nouvelles}/>
-            <Route exact path="/comment-ca-marche" component={FaQ}/>
-            <Route exact path="/contact" component={NousJoindre}/>
+  return (
+    <Switch>
+      {/*Pages statiques*/}
+      <Route exact path="/" component={Accueil}/>
+      <Route exact path="/about" component={About}/>
+      <Route
+        exact
+        path="/conditions-utilisation"
+        component={ConditionsUtilisation}
+      />
+      <Route
+        exact
+        path="/politiques-confidentialite"
+        component={PolitiquesConfidentialite}
+      />
+      <Route exact path="/tarifs" component={Tarifs}/>
+      <Route exact path="/nouvelles" component={Nouvelles}/>
+      <Route exact path="/comment-ca-marche" component={FaQ}/>
+      <Route exact path="/contact" component={NousJoindre}/>
 
-            {/* Account */}
-            <Route exact path="/login" component={Connexion}/>
-            <Route exact path="/register" component={CreateAccount}/>
+      {/* Account */}
+      <Route exact path="/login" component={Connexion}/>
+      <Route exact path="/register" component={CreateAccount}/>
 
-            <Route component={Error404}/>
-        </Switch>
-    );
+      {/*Page Erreur 404*/}
+      <Route component={Error404}/>
+    </Switch>
+  );
 };
 
 export default Router;
