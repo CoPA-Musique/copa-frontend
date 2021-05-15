@@ -44,10 +44,8 @@ Il y aura 4 types d'utilisateur :
 
 - Tableau de bord utilisateur
     - Page Création de compte
-
     - Page Connexion
         - Réinitialiser son mot de passe
-
     - Page Gestion du compte
         - Modifier ses informations personnelles
         - Modifier son image de profil (avatar)
@@ -64,7 +62,6 @@ Il y aura 4 types d'utilisateur :
         - Gérer les notifications
             - Activer/désactiver individuellement les différentes notifications
             - Recevoir par email ou seulement sur la plateforme web.
-
     - Page Gestion de profil (**abonnés**)
         - Créer / Éditer son profil public d'abonné
             - Textes de présentation
@@ -86,7 +83,6 @@ Il y aura 4 types d'utilisateur :
                     - Embarquées depuis Youtube ou Vimeo
                 - Supprimer des audios de la galerie
                 - Modifier l'ordre des audios de la galerie
-
     - Page Groupes
         - Liste des groupes dont l'utilisateur est membre
         - Créer / Éditer des groupes
@@ -98,13 +94,11 @@ Il y aura 4 types d'utilisateur :
             - Transférer la gestion d'un groupe à un autre membre
             - Démanteler un groupe
         - Quitter un groupe
-
     - Page Blog (**abonnés**)
         - Rédiger un article
         - Modifier un article
         - Mode Brouillon (non publié)
         - Corbeille
-
     - Page Mes appels d'offres
         - Publier un appel d'offre
         - Modifier un de ses appel d'offre
@@ -112,15 +106,12 @@ Il y aura 4 types d'utilisateur :
         - Voir les soumissions sur mes appels d'offre
             - Sélectionner un prestataire pour un appel d'offre
                 - Écrire une recommandation
-
     - Page Recommendations
         - Liste des recommandations laissées par les utilisateurs qui ont acceptés ma soumission.
         - Rendre publiques les recommandations choisies
-
     - Notifications
         - Appels d'offre correspondants aux étiquettes et catégories associées au profil
         - Soumissions sur une de ses appels d'offre
-
     - Page Base de connaissance
 
 ---
@@ -128,14 +119,12 @@ Il y aura 4 types d'utilisateur :
 - Tableau de bord Admin
     - Blog
         - Identique à Tableau de bord Utilisateurs
-
     - Gérer les utilisateurs
         - Modifier le statut d'abonnement d'un utilisateur
         - Modifier les informations d'un utilisateur
         - Modifier le contenu du profil public d'un utilisateur
         - Bannir un utilisateur
         - Suspendre un utilisateur
-
     - Gérer les groupes
         - Modifier les informations d'un groupe
         - Modifier le contenu du profil public d'un groupe
@@ -144,18 +133,14 @@ Il y aura 4 types d'utilisateur :
     - Gérer les appels d'offre
         - Modifier un appel d'offres
         - Supprimer un appel d'offre
-
     - Historique des activités de la plateforme
-
     - Page de statistiques
-
     - Modifier le contenu des pages vitrines
         - Page Accueil
         - Page À propos
         - Page Tarifs
         - Page Comment ça marche
         - Page Nous joindre
-
     - Mettre à jours les contrats
         - Conditions d'utilisation
         - Politique de confidentialités
@@ -166,7 +151,6 @@ Il y aura 4 types d'utilisateur :
 - Repertoire des abonnés et des groupes
     - Page liste des abonnés et des groupes
         - Filtrer par catégories et étiquettes
-
     - Page profil individuel d'un abonné un d'un groupe
         - Signaler un contenu inapproprié
 
@@ -175,7 +159,6 @@ Il y aura 4 types d'utilisateur :
 - Tableau des appels d'offres
     - Page liste des appels d'offre
         - Filtrer par catégories et étiquettes
-
     - Pages appel d'offre individuel
         - Faire une soumission (**abonnés**)
 
