@@ -1,12 +1,12 @@
 import React from "react";
 import Heading from "../../atoms/Heading/Heading";
-import style from "./ContactForm.module.css";
+import style from "./ContactForm.module.scss";
 
 const ContactForm = () => {
   return (
     <section className={style.ContactForm}>
       <Heading type={2}>Nous laisser un message : </Heading>
-      <form id="contactForm" action="" method="post">
+      <form id="contactForm" method="post">
         <div>
           <label htmlFor="name">Nom et prénom : </label>
           <input type="text" name="name" id="name" />
@@ -21,7 +21,7 @@ const ContactForm = () => {
         </div>
         <div>
           <label htmlFor="message">Message : </label>
-          <textarea name="message" id="message"></textarea>
+          <textarea name="message" id="message"/>
         </div>
       </form>
       <button type="submit" form="contactForm">

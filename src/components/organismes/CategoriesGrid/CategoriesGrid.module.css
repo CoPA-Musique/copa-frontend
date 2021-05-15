@@ -8,7 +8,6 @@
   row-gap: 40px;
 }
 
-
 @media (max-width: 1300px) {
   .CategoriesGrid {
     grid-template-columns: 1fr 1fr 1fr;

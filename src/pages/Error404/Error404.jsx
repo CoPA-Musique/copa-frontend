@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Heading from "../../components/atoms/Heading/Heading";
-import style from "./Error404.module.css";
+import style from "./Error404.module.scss";
 
 const Error404 = () => {
   useEffect(() => {

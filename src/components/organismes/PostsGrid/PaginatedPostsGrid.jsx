@@ -24,3 +24,5 @@ const PaginatedPostsGrid = ({posts}) => {
 };
 
 export default PaginatedPostsGrid;
+
+

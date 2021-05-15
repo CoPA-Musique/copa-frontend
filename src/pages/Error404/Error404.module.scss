@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero404 {
+    padding: 50px;
+    text-align: center;
+    border: black solid 1px;
+    background-color: rgba(100, 149, 237, 0.4);
+    transition: all 0.4s ease-in;
+
+    &:hover {
+      background-color: rgba(100, 149, 237, 0.8);
+    }
+  }
+}
