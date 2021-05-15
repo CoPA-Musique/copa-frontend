@@ -129,7 +129,6 @@ Il y aura 4 types d'utilisateur :
         - Modifier les informations d'un groupe
         - Modifier le contenu du profil public d'un groupe
         - Démanteler un groupe
-
     - Gérer les appels d'offre
         - Modifier un appel d'offres
         - Supprimer un appel d'offre
