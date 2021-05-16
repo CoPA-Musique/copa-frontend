@@ -9,8 +9,8 @@ const Error404 = () => {
   }, []);
 
   return (
-    <main>
-      <div className={style.hero404}>
+    <main className={style.hero404}>
+      <div>
         <Heading>Erreur 404</Heading>
         <Heading type={2}>Page non trouvée</Heading>
       </div>
