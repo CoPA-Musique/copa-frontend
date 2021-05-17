@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import style from "./PostCard.module.css";
+import style from "./PostCard.module.scss";
 import image from "../../../../assets/img/free-music-vector-icon.jpeg"
 
 const PostCard = (props) => {

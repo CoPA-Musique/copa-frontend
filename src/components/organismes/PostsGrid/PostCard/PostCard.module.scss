@@ -1,0 +1,30 @@
+.PostCard {
+  border: black solid 1px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.4);
+
+  h3 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+
+    &:hover {
+      font-weight: bold;
+    }
+  }
+
+  img {
+    height: 300px;
+    width: max-content;
+    margin: auto;
+  }
+
+  .PostCard__date {
+    text-decoration: underline;
+    margin-bottom: 5px;
+  }
+}

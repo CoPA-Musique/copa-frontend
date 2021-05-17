@@ -1,6 +1,6 @@
 import React from "react";
 import PostCard from "./PostCard/PostCard";
-import style from "./PaginatedPostsGrid.module.css";
+import style from "./PaginatedPostsGrid.module.scss";
 import PaginatedContent from "../../molecules/PaginatedContent/PaginatedContent";
 import PaginationBar from "../../molecules/PaginationBar/PaginationBar";
 import usePagination from "../../../hooks/usePagination";
