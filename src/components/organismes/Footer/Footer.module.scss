@@ -1,0 +1,35 @@
+.footer {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  background-color: var(--color-dark-surface);
+
+  .footer__content {
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    color: var(--color-tertiary);
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: var(--color-secondary);
+
+      &:visited {
+        color: var(--color-secondary);
+      }
+    }
+  }
+
+  .footer__content__logo {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}

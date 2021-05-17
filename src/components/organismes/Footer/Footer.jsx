@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Footer.module.css";
+import style from "./Footer.module.scss";
 import logo from "../../../assets/img/CoPA-Logo-Rouge.png";
 
 import Copyright from "./Copyright/Copyright";

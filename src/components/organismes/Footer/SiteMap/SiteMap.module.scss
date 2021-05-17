@@ -1,19 +1,21 @@
 .siteMap {
   display: flex;
   align-items: center;
-}
 
-.siteMap ul {
-  margin: 0 10px;
-}
+  ul {
+    margin: 0 10px;
+  }
 
-.siteMap a:hover {
-  color: var(--color-dark-tertiary);
-}
+  li {
+    & > ul {
+      margin-left: 10px;
+      font-size: 0.8rem;
+    }
 
-.siteMap li > ul {
-  margin-left: 10px;
-  font-size: 0.8rem;
+    a:hover {
+      color: var(--color-light-secondary) !important;
+    }
+  }
 }
 
 @media (max-width: 400px) {
@@ -22,9 +24,9 @@
     margin: 20px;
     border: white solid 1px;
     padding: 5px;
-  }
 
-  .siteMap__liste2 {
+    .siteMap__liste2 {
       margin-left: -20px !important;
+    }
   }
 }

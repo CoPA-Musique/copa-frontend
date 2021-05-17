@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Copyright.module.css";
+import style from "./Copyright.module.scss";
 
 const Copyright = () => {
   return (
