@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a56fefd8.chunk.css",
+    "main.js": "/static/js/main.85025c95.chunk.js",
+    "main.js.map": "/static/js/main.85025c95.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e7ef3cfe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e7ef3cfe.js.map",
+    "static/js/2.aa0e67ba.chunk.js": "/static/js/2.aa0e67ba.chunk.js",
+    "static/js/2.aa0e67ba.chunk.js.map": "/static/js/2.aa0e67ba.chunk.js.map",
+    "static/js/3.1646e204.chunk.js": "/static/js/3.1646e204.chunk.js",
+    "static/js/3.1646e204.chunk.js.map": "/static/js/3.1646e204.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a56fefd8.chunk.css.map": "/static/css/main.a56fefd8.chunk.css.map",
+    "static/js/2.aa0e67ba.chunk.js.LICENSE.txt": "/static/js/2.aa0e67ba.chunk.js.LICENSE.txt",
+    "static/media/COPA-logo-jaune.92069cfa.png": "/static/media/COPA-logo-jaune.92069cfa.png",
+    "static/media/CoPA-Logo-Rouge.5f6e21a0.png": "/static/media/CoPA-Logo-Rouge.5f6e21a0.png",
+    "static/media/App.scss": "/static/media/Ubuntu-Regular.fbdecfce.ttf",
+    "static/media/arrow-row-expand-down-ico-white.84ef437a.svg": "/static/media/arrow-row-expand-down-ico-white.84ef437a.svg",
+    "static/media/free-music-vector-icon.58064d82.jpeg": "/static/media/free-music-vector-icon.58064d82.jpeg",
+    "static/media/icofont.min.css": "/static/media/icofont.dad3accb.woff",
+    "static/media/transparent-bg.f6450764.png": "/static/media/transparent-bg.f6450764.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7ef3cfe.js",
+    "static/js/2.aa0e67ba.chunk.js",
+    "static/css/main.a56fefd8.chunk.css",
+    "static/js/main.85025c95.chunk.js"
+  ]
+}
