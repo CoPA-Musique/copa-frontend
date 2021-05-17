@@ -27,7 +27,7 @@ export default function Header() {
 
             <div>
                 <HamburgerBtn click={drawerToggleClickHandle}/>
-                <div className={style.account}><Link to="/login">Connexion</Link>/<Link to="/register">Inscription</Link></div>
+                <div className={style.account}><Link to="/login">Connexion</Link> / <Link to="/register">Inscription</Link></div>
             </div>
 
             <SideDrawer isOpen={sideDrawerOpen} close={closeDrawerHandle}>
