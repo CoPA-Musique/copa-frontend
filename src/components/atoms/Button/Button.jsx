@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import style from "./Button.module.css";
+import style from "./Button.module.scss";
 
 const Button = ({ btn_link = "#", btn_text, click }) => {
   return (

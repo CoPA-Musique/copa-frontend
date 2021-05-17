@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./SideDrawer.module.css";
+import style from "./SideDrawer.module.scss";
 
 const SideDrawer = ({ isOpen, close, children }) => {
   let drawerClasses = `${style.SideDrawer}`;

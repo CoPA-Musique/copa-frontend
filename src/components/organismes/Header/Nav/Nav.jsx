@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import style from "./Nav.module.css";
+import style from "./Nav.module.scss";
 
 const Nav = ({sideDrawer}) => {
     let navClasses = style.Nav;

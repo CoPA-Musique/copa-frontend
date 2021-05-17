@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./HamburgerBtn.module.css";
+import style from "./HamburgerBtn.module.scss";
 
 const HamburgerBtn = ({ click }) => {
   return (

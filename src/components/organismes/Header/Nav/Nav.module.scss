@@ -1,0 +1,24 @@
+.Nav {
+  .account {
+    color: var(--color-secondary);
+  }
+}
+
+@media (max-width: 700px) {
+  .Nav {
+    display: none;
+
+    &.sideDrawer {
+      display: block;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
+
+      li:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
